@@ -7,18 +7,18 @@
 
 ;(function($){
   $.fn.responsiveGallery = function(option){
-    var opts = $.extend({}, $.fn.responsiveGallery.defaults, option), //配置选项
-      $rgWrapper = this,
-      $rgItems = $rgWrapper.find('li'), //.responsiveGallery-item
-      rgItemsLength = $rgItems.length,
-      support3d = Modernizr.csstransforms3d,
-      support2d = Modernizr.csstransforms,
-      rgCurrentIndex = 0;
-    rgShowCount = 5,
-      rgTansCSS = [],
-      animatDuration = opts.animatDuration,
-      isAnimating = false,
-      touchX = 0;
+    let opts = $.extend({}, $.fn.responsiveGallery.defaults, option);  // 配置选项
+    let $rgWrapper = this;
+    let $rgItems = $rgWrapper.find('li');  // .responsiveGallery-item
+    let rgItemsLength = $rgItems.length;
+    let support3d = Modernizr.csstransforms3d;
+    let support2d = Modernizr.csstransforms;
+    let rgCurrentIndex = 0;
+    let rgShowCount = 5;
+    let rgTansCSS = [];
+    let animatDuration = opts.animatDuration;
+    let isAnimating = false;
+    let touchX = 0;
 
     function getTransform3dCSS(tx,ty,ry,zIndex,opacity,visibility){
       return {

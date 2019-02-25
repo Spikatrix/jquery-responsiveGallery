@@ -1,152 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Responsive 3D Gallery</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/jquery-responsiveGallery.css">
-	<link rel="stylesheet" type="text/css" href="css/sparktx.css">
-	<style type="text/css">
-		html{
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Responsive 3D Gallery</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-responsiveGallery.css">
+        <link rel="stylesheet" type="text/css" href="css/sparktx.css">
+        <style type="text/css">
+html{
 
-			background-color: #888;
-		}
-		.w-gallery{
-			margin-top: 80px;
-		}
-	</style>
-	<script type="text/javascript" src="lib/modernizr.custom.js"></script>
-	<script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="src/jquery.responsiveGallery.js"></script>
-	<script type="text/javascript">
-		$(function () {
-$('.responsiveGallery-wrapper').responsiveGallery({
-	animatDuration: 400, //动画时长 单位 ms
-	$btn_prev: $('.responsiveGallery-btn_prev'),
-	$btn_next: $('.responsiveGallery-btn_next')
-});
-		});
-		
-	</script>
-</head>
-<body>
-	<div class="w-gallery">
-      <section id="responsiveGallery-container" class="responsiveGallery-container">
-        <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a>
-        <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
-        <ul class="responsiveGallery-wrapper"> 
-            <li class="responsiveGallery-item">
-              <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
-              <div class="hidden">
-                  <span class="spark-modal-close">×</span>
-                  <h4>Yo yo yo</h4>
-                  <p>And here's some content, y'all.</p>
-              </div>
-              <div class="w-responsivGallery-info modal">
-                <h3 class="responsivGallery-position">sparktx-style popup</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
-              <div class="hidden">
-                  <span class="spark-modal-close">×</span>
-                  <div class="embed-container">
-                      <iframe src="https://player.vimeo.com/video/318018278" frameborder="0"></iframe>
-                  </div>
-              </div>
-              <div class="w-responsivGallery-info modal">
-                <h2 class="responsivGallery-name">Vimeo</h2>
-                <h3 class="responsivGallery-position">vimeo sample vid</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Google</h2>
-                <h3 class="responsivGallery-position">www.google.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/1.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Baidu</h2>
-                <h3 class="responsivGallery-position">www.baidu.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/2.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Coding Serf</h2>
-                <h3 class="responsivGallery-position">www.codingserf.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/3.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Modernizr</h2>
-                <h3 class="responsivGallery-position">www.modernizr.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/4.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">W3Cplus</h2>
-                <h3 class="responsivGallery-position">www.w3Cplus.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/5.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">jQuery</h2>
-                <h3 class="responsivGallery-position">www.jquery.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/6.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Github</h2>
-                <h3 class="responsivGallery-position">www.github.com</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/7.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">Bitbucket</h2>
-                <h3 class="responsivGallery-position">www.bitbucket.org</h3>
-              </div>
-            </li>
-            <li class="responsiveGallery-item">
-              <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/8.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-              <div class="w-responsivGallery-info">
-                <h2 class="responsivGallery-name">JSFiddle</h2>
-                <h3 class="responsivGallery-position">www.jsfiddle.net</h3>
-              </div>
-            </li>
-        </ul>
-      </section>
-    </div>
+    background-color: #888;
+}
+        .w-gallery{
+            margin-top: 80px;
+        }
+        </style>
+        <script type="text/javascript" src="lib/modernizr.custom.js"></script>
+        <script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="src/jquery.responsiveGallery.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('.responsiveGallery-wrapper').responsiveGallery({
+                    animatDuration: 400, //动画时长 单位 ms
+                    $btn_prev: $('.responsiveGallery-btn_prev'),
+                    $btn_next: $('.responsiveGallery-btn_next')
+                });
+            });
 
-    <div class="spark-modal">
-        <div cass="spark-modal-content"></div>
-    </div>
-<script>
-jQuery(document).ready(function($) {
-    $(this).on("click",".modal",function() {
-        var modalText = $(this).siblings('.hidden').clone();
-        $( ".spark-modal" ).toggle();
-        $(".spark-modal-content").html(modalText);
-    });
+        </script>
+    </head>
+    <body>
+        <div class="w-gallery">
+            <section id="responsiveGallery-container" class="responsiveGallery-container">
+                <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a>
+                <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
+                <ul class="responsiveGallery-wrapper"> 
+                    <li class="responsiveGallery-item">
+                        <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
+                        <div class="hidden">
+                            <span class="spark-modal-close">×</span>
+                            <h4>Yo yo yo</h4>
+                            <p>And here's some content, y'all.</p>
+                        </div>
+                        <div class="w-responsivGallery-info modal">
+                            <h3 class="responsivGallery-position">sparktx-style popup</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
+                        <div class="hidden">
+                            <span class="spark-modal-close">×</span>
+                            <div class="embed-container">
+                                <iframe src="https://player.vimeo.com/video/318018278" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                        <div class="w-responsivGallery-info modal">
+                            <h2 class="responsivGallery-name">Vimeo</h2>
+                            <h3 class="responsivGallery-position">vimeo sample vid</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Google</h2>
+                            <h3 class="responsivGallery-position">www.google.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/1.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Baidu</h2>
+                            <h3 class="responsivGallery-position">www.baidu.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/2.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Coding Serf</h2>
+                            <h3 class="responsivGallery-position">www.codingserf.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/3.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Modernizr</h2>
+                            <h3 class="responsivGallery-position">www.modernizr.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/4.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">W3Cplus</h2>
+                            <h3 class="responsivGallery-position">www.w3Cplus.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/5.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">jQuery</h2>
+                            <h3 class="responsivGallery-position">www.jquery.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/6.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Github</h2>
+                            <h3 class="responsivGallery-position">www.github.com</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/7.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">Bitbucket</h2>
+                            <h3 class="responsivGallery-position">www.bitbucket.org</h3>
+                        </div>
+                    </li>
+                    <li class="responsiveGallery-item">
+                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/8.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
+                        <div class="w-responsivGallery-info">
+                            <h2 class="responsivGallery-name">JSFiddle</h2>
+                            <h3 class="responsivGallery-position">www.jsfiddle.net</h3>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
-    $(this).on("click",".spark-modal-close",function() {
-        $( ".spark-modal" ).toggle();
-        $(".spark-modal-content").html('');
-    });
+        <div class="spark-modal">
+            <div cass="spark-modal-content"></div>
+        </div>
+        <script>
+            jQuery(document).ready(function($) {
+                $(this).on("click",".modal",function() {
+                    var modalText = $(this).siblings('.hidden').clone();
+                    $( ".spark-modal" ).toggle();
+                    $(".spark-modal-content").html(modalText);
+                });
 
-    if (document.location.href.indexOf('#') > -1) {
-        console.log($("body").scrollTop());
-    }
-});
-</script>
-</body>
+                $(this).on("click",".spark-modal-close",function() {
+                    $( ".spark-modal" ).toggle();
+                    $(".spark-modal-content").html('');
+                });
+
+                if (document.location.href.indexOf('#') > -1) {
+                    console.log($("body").scrollTop());
+                }
+            });
+        </script>
+    </body>
 </html>

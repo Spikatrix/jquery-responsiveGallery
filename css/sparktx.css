@@ -1,0 +1,3491 @@
+@charset "utf-8";
+/* CSS Document */
+
+*, *:before, *:after{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, blockquote, pre,abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:bottom;background:transparent;list-style:none;}
+div{box-sizing:border-box;}
+body {
+	background-color:#ffffff;
+	font-family:"proxima-nova";
+	font-weight:400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+  
+#body {
+	max-width:1920px;
+	margin:0 auto 0 auto;
+}
+html,body {
+    height:100%;
+}
+strong {
+	font-weight:700;
+}
+
+em {
+	font-style:italic;
+}
+
+.clear {
+	clear:both;
+}
+
+#header {
+	background-color:#ffffff;
+	border-bottom-style:solid;
+	border-bottom-width:12px;
+	border-bottom-color:#65bc47;
+	height:129px;
+	position:fixed;
+	z-index:100;
+	width:100%;
+	max-width:1920px;
+}
+
+#header-inner {
+	max-width:1460px;
+	margin:0 auto 0 auto;
+	padding:0 30px 0 30px;
+}
+
+#spark-logo {
+	float:left;
+	margin-top:26px;
+	width:190px;
+	height:69px;
+}
+
+#spark-logo img {
+	width:190px;
+}
+.awards .content-block {
+    max-width: 1440px;
+    padding: 0 30px;
+}
+
+
+.awards ul li {
+    width: 20%;
+    float: left;
+    padding: 10px 45px;
+}
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(images/logo_sparktx.svg);
+  background-size: 190px 69px;
+}
+a {
+    color: #65bc47;
+}
+#main-menu {
+	padding-top:46px;
+}
+.contact-top-block{padding: 35px 0;}
+.tab-block.contact-tab{margin: 60px auto 20px auto;}
+.contact-page.content-block ol, .contact-page.content-block ol li{list-style: decimal; font-size:19px; margin-left: 20px; padding-left: 10px; margin-bottom:30px; text-align:left;}
+.contact-page.content-block ul, .contact-page.content-block ul li{list-style: disc; font-size:19px; margin-left: 20px; padding-left: 10px; margin-bottom:30px; text-align:left;}
+#main-menu a {
+	font-weight:700;
+	font-size:14px;
+	color: #58595b;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#main-menu ul {
+	display:block;
+	float:right;
+}
+
+#main-menu li {
+	line-height:1.0em;
+	text-align:center;
+	display:block;
+	float:left;
+	margin-left:30px;
+	position: relative;
+}
+
+#main-menu a:hover {
+	color: #65bc47;
+}
+#main-menu a.current-page {
+    color: #65bc47;
+}
+#main-body {
+	padding-top: 129px;
+	font-size:103%; 
+}
+.content-block{
+	position: relative;
+	max-width:920px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.content-block.max-width1460{
+	max-width:1460px;
+}
+.content-block.max-width1020{
+	max-width:1020px;
+}
+
+.approval-num {
+	font-size:13px;
+	padding-bottom: 40px;
+	color:#000000;
+	font-style: italic;
+}
+
+body.single-voices .content-block.max-width1020{
+	background:#ffffff;
+}
+#left-column {
+	float:left; 
+	display:block;
+	width:31%;
+	margin-top:129px;
+}
+
+#left-nav {
+	float:right;
+	padding-right:50px;
+	padding-top:58px;
+	padding-left:20px;
+}
+
+#left-nav li {
+	font-size:16px;
+	margin-bottom:8px;
+}
+
+#left-nav ul ul {
+	margin-top:8px;
+	margin-left:20px;
+}
+
+#left-nav li a {
+	text-decoration:none; 
+	color:#58595b;
+}
+
+#left-nav li a:hover {
+	color:#65bc47;
+}
+
+#left-nav li.left-nav-on-state a {
+	color:#65bc47;
+}
+#main-menu .main-menu-on-state>a{
+	color:#65bc47;
+}
+#tools{
+	margin-top:50px;
+}
+.banner{text-align:center;}
+.healthcare-page-access .banner{
+	background: #fff;
+	color:#000;
+    margin: 0 0 30px 0;
+    padding: 20px;
+	text-align:left;
+}
+.healthcare-page-access .banner #banner-one,.healthcare-page-access .banner #banner-two{width: 50%;
+    float: left;
+    text-align: center;}
+.bg-6dbd50{background-color:#6dbd50; color:#fff;}
+.bg-1c75bc{background-color:#1c75bc; color:#fff;}
+.bg-fff{background-color:#fff; color:#231f20;}
+.bg-2bace2{background-color:#2bace2; color:#fff;}
+.bg-6f7070{background-color:#6f7070; color:#fff;}
+.bg-1d73b6{background-color:#1d73b6; color:#fff;}
+.bg-bdbec0{background-color:#bdbec0; color:#fff;}
+.bg-f2f2f2{background-color:#f2f2f2; color:#231f20;}
+.bg-4d4d4f{background-color:#4d4d4f; color:#fff;}
+.bg-63bc47{background-color:#63bc47; color:#fff;}
+.bg-63bc47 a{color:#fff; text-decoration:underline;}
+.bg-262626{background-color:#4d4d4f; color:#fff;}
+.bg-149ed9{background-color:#149ed9; color:#fff;}
+.bg-0f76bc{background-color:#0f76bc;color:#fff;min-height:120px;}
+.bg-0f76bc .content-block{text-align: center;}
+.bg-ffffff {background: #fff;text-align: center;padding: 1em 0;}
+.bg-ffffff h2 {
+    padding-top: 1em;
+    padding-bottom: 0px;
+    color: #909090;  
+}
+.page-template-product-page .product-page .left{width:50%; float:left;}
+.page-template-product-page .product-page .right{width:50%; float:left;}
+.page-template-product-page .product-page .right p, .product-page .left p {text-align: center;}
+.page-template-product-page .lux-link{
+    display: inline-block;
+    background: #3775b7;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;}
+.page-template-product-page .lux-logo{width:100%; height:auto; max-width:586px;}
+.companies img {width: 40%;}
+.bg-0f76bc h3{
+    color: #fff;
+    line-height: 120px;
+    padding: 0; 
+    margin: 0;
+    display: inline-block;
+}
+
+.bg-0f76bc a{
+    display: inline;
+    background: #fff;
+    color: #0f76bc;
+    line-height: 120px;
+    text-transform: uppercase;
+    margin: 1em;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+
+
+
+.arrow-link{
+	text-decoration: none !important;
+    color: inherit;
+}
+.arrow {
+	vertical-align:middle;
+}
+.modal{cursor:pointer;}
+.news-events {
+    height: auto;
+    padding-bottom: 40px;
+    max-width: 1010px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.news-events h2 {
+		font-weight:600;
+		padding-bottom:40px;
+		text-align:center;
+		font-size: 30px;
+    	padding: 35px 0 35px 0;
+		}
+
+.news-events a{
+	color:#fff; 
+	text-decoration:none;
+    bottom: 20px; 
+    position: absolute;
+	}
+.news-events .news-button-block a{position:relative;}
+.news-events .block{position:relative;}
+.news-events .bg-fff a{color:inherit;}
+.news-events .event-date{
+	font-weight: 700;
+	font-size:17px;
+}
+.news-events .block, .media-kit .block{
+	box-shadow: 0 0 40px #4d7f3a;
+	font-size:19px;
+	width: 320px;
+	float: left;
+    padding: 24px;
+	height:auto;
+	}
+.normal-weight{font-weight:500;}
+
+.healthcare-page-access .references p{
+	margin: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#wpcf7-f1884-p1885-o1{padding-top:30px;}
+
+.block p, .content-block p {
+	margin: 0 0 30px 0;
+	font-size:19px;
+	font-weight:500;
+	}
+.investors p{margin: 20px 0;}
+.investors .read-more{font-size: 19px;}
+.investors strong{font-size: 24px;}
+.investors .element-one, .investors .element-two{width:480px; float:left; margin-right:15px; margin-top:50px; height:305px; padding:20px; text-align:left; box-shadow: 0 0 15px #9f9d9d;}
+.investors .element-two{margin-left:15px;}
+.investors .element-three, .investors .element-four{width:480px; float:left; margin-right:15px; margin-top:50px; height:131px; padding:20px; text-align:left; box-shadow: 0 0 15px #9f9d9d;}
+.investors .element-four{margin-left:15px;}
+.investors .element-three .inv-img{float: right; padding-top: 10px;}
+.investors .element-four .inv-img{float: right; padding-top: 5px;}
+.content-block h2, .healthcare-page-access h2, .healthcare-page-partners h2{
+	font-size: 30px;
+    font-weight: 600;
+    padding: 35px 0 30px 0;
+	}
+.we-are-spark-intro h2{padding: 10px 0 30px 0;}
+.spark-page-meet h2{padding: 35px 0 30px 0;}
+.news-events .block:nth-child(-n+3),.media-kit .block:nth-child(-n+3){margin-right: 25px;}
+.news-button-block{text-align: center; padding-top: 30px;}
+#tools li img {
+	vertical-align:middle;
+	margin-right:10px;
+	width:26px; 
+}
+.hide-large{display:none;}
+#platform-text-area{
+	  font-size: 19px;
+	  text-align: left;
+	  padding: 30px 0;
+	}
+.platform-item{
+	width: 25%;
+    float: left;
+    padding: 0 12px;
+	font-size: 19px;
+	font-weight:300;
+	}
+	
+.platform-item p{
+	font-size:17px;
+}
+	
+	
+.platform-item h4 {
+	margin:0;
+	padding:0;
+	height:80px;
+	font-size:19px;
+	font-weight:600;
+	color: #231f20;
+}
+	
+.platform-item:nth-of-type(1){
+	width: 26%;
+    float: left;
+    padding: 0 12px 0 0;
+	}
+.platform-item:nth-of-type(2){
+	width: 26%;
+    float: left;
+    padding: 0 12px 0 0;
+	}
+.platform-item:nth-of-type(3){
+	width: 24%;
+    float: left;
+    padding: 0 12px 0 0;
+	}
+.platform-item:nth-of-type(4){
+	width: 24%;
+    float: left;
+    padding: 0 0 0 0;
+	}
+.platform-block{text-align:center; padding: 60px 0;}
+.platform-block p{text-align:left;}
+.platform-block h2{
+	font-size: 30px;
+    font-weight: 600;
+	padding:0 0 20px 0;
+	color:#6dbd50;
+}
+
+.platform-block p{
+	font-size:19px;
+	margin:0 0 20px 0;
+}
+
+.platform-page h2{
+	font-size: 30px;
+    font-weight: 600;
+	padding:0 0 20px 0;
+	color:#fff;
+}
+.platform-page .platform-item {
+    font-size: 17px;
+}
+.platform-page a{color:#65bc47; text-decoration:none;}
+.healthcare-page-partners a{color:#fff; font-weight:800; text-decoration:none;}
+.spark-page,.platform-page, .healthcare-page,.patients-page, .healthcare-page-active-dialogue, .healthcare-page-access, .healthcare-page-partners{text-align: center; padding: 0 0 60px 0;}
+p{text-align:left;}
+.spark-page-meet{text-align: center !important; padding: 0 0 60px 0;}
+.media, .media-kit div{text-align: left;}
+.media a,.media-news a{color:#231f20;}
+.media-kit-modal .download-header{text-align:center; font-size:22px; font-weight:600; margin-bottom: 30px;}
+.media-kit-modal .download-img-one{width: 50%; float: left; padding-right:10px;}
+.media-kit-modal .download-img-two{width: 50%; float: right; padding-left:10px;} 
+.media h2,.media-news h2{text-align: center; color:#63bc47;}
+.page-subhead{font-size: 24px}
+.join-page-united{
+	padding:30px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+.stay-connected{padding: 64px 0 60px 0;}
+.stay-connected h3{font-weight:500; font-size:26px; padding: 0 0 20px 0;}
+.spark-page-community{
+	max-width:920px;
+	padding: 0 0 60px 0;
+}
+.contact-page h2{font-size: 25px;}
+.spark-page-community h2{text-align: center;}
+.spark-page-gallery{max-width:1190px;}
+.platform-page .about{font-size:23px; padding: 20px 30px;}
+.platform-page .platform-items{padding: 0 0 40px 0;}
+.platform-page .platform-item .title{display:block; width:100%; text-align:center; font-size: 19px;
+    font-weight: 600;}
+.stage-title{    
+	position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #fff;
+	text-transform:uppercase;
+	display:none;
+	}
+.platform-page .platform-item p:nth-of-type(2){padding: 0px 20px 20px 20px; text-align:left; padding-top: 20px;}
+.platform-page h1, .healthcare-page h1, .content-block h1{font-size: 42px; text-align: center; padding: 40px 0 30px 0; font-weight: 700;}
+body.post-type-archive-voices .content-block h1, body.single-voices .content-block h1, body.page-template-voices-page .content-block h1{padding:45px 0 25px 0;}
+.read-more{display: inline-block; float: right; cursor:pointer; padding-top: 0; padding-bottom:30px; font-size: 19px;}
+.community-blocks .read-more {
+	padding-top: 30px;
+} 
+.read-more .readmore-x, .investors .readmore-x, .media-kit .readmore-x,.news-events .readmore-x{margin-bottom: 3px;}
+.community-blocks .modal .readmore-x{margin-bottom: 3px;}
+.read-more-text{padding: 0 30px 0 30px;} 
+.healthcare-page .blue-button, .healthcare-page .white-button{
+	margin-top:0;
+    display: block;
+    margin: 0 auto; 
+    width: 50%;
+    text-align: center;
+}
+.healthcare-page .white-button {
+    font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #000;
+    padding: 5px 25px 5px 25px;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-splash.investors{
+	height:441px; 
+    background: url(/wp-content/uploads/footer_investors-media.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 1920px; 
+    position:relative;
+}
+.footer-splash.healthcare{
+	height:445px; 
+    background: url(/wp-content/uploads/spark/layout_healthcare-professionals-footer-splash.jpg) no-repeat right;
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.gene{
+	height:440px; 
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.home{
+	height:440px; 
+    background-size: cover;
+	background-position:center;
+    max-width: 1920px;
+    position:relative;
+}
+
+.footer-splash.join{
+	height:440px; 
+    background: url(/wp-content/uploads/footer_join.jpg) no-repeat right;
+    background-size: cover;
+	background-position:center;
+    max-width: 1920px;
+    position:relative;
+}
+.healthcare-page-pubs h2, .healthcare-page-active-dialogue h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #65bc47;
+    padding: 50px 0 20px 0;}
+.hidden{display:none;}
+.pipeline-block .pipeline-sub-item:nth-child(n+4){margin: 13px 0 0 0;}
+.pipeline-x{position:absolute; top:14px; right:10px;}
+.pipeline-block{padding: 20px 0 40px 0;}
+.ird .pipeline-header{background-color:#63bc47; height:106px; color:#fff; font-weight:600; font-size:24px;}
+.neuro .pipeline-header{background-color:#149ed9; height:106px; color:#fff; font-weight:600; font-size:24px;}
+.liver .pipeline-header{background-color:#ef4136; height:106px; color:#fff; font-weight:600; font-size:24px;} 
+.pipeline-title-table{display:table; margin: 0 auto;padding-left:10px;padding-right:10px;}
+.pipeline-row{display:table-row;}
+.pipeline-title-text{display:table-cell; vertical-align:middle; height: 106px;font-size:22px; line-height: 1;}
+.pipeline-title-image{display:table-cell; vertical-align:middle; height: 106px; padding:0 30px 0 0;}
+.pipeline-title-image img{margin: 0 0 -5px 0;}
+.pipeline-phases{height: 45px;}
+.pipeline-phases div{width:25%; float:left; padding: 12px 0 0 0; height: 45px; text-align: center;}
+.pipeline-phases div:nth-child(n+2){border-left: 1px solid #e8e9e9;}
+.pipeline-phases div:nth-of-type(2){font-size:14px;padding-top:8px;}
+.pipeline-subhead{background-color: #e6e6e6; height: auto; width: 100%; padding: 15px 0 15px 15px;}
+.pipeline-subhead sup {font-size: 12px;vertical-align: baseline;position: relative;top: -0.7em;}
+.gradient-container{background-color:#d1d3d4; position:relative; cursor:pointer;}
+.pipeline-text{padding: 30px;}
+.pipeline-text{padding: 30px;}
+.pipeline-intro h2{    
+	text-align: center;
+    font-size: 30px;
+    padding: 70px 0 40px 0;
+    color:#63bc47;
+    font-weight:600;
+}
+.pipeline-intro, .pipeline-block{font-size: 19px;}
+.ird .gradient{
+  background: #63bc46; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #cbdf82 , #63bc46); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #cbdf82, #63bc46); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #cbdf82, #63bc46); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #cbdf82 , #63bc46); /* Standard syntax */
+  height:44px;
+}
+.neuro .gradient{
+  background: #9adaf5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #9adaf5 , #159ed9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #9adaf5, #159ed9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #9adaf5, #159ed9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #9adaf5 , #159ed9); /* Standard syntax */
+  height:44px;
+}
+.liver .gradient{
+  background: #ef4136; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ffaea8 , #ef4136); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ffaea8, #ef4136); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ffaea8, #ef4136); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ffaea8, #ef4136); /* Standard syntax */
+  height:44px;
+}
+.platform-block p{padding:20px 0;}
+.platform-item .on{display:none}
+.platform-item:hover .off{display:none}
+.platform-item:hover .on{display:inline-block}
+.gradient-container-no-click{
+    background-color: #d1d3d4;
+    position: relative;
+}
+.novartis-logo-pipeline{margin: 0 10px 2px 5px; width: 130px; float:right;}
+.pfizer-logo-pipeline{margin: -5px 10px 0 0; width: 60px; float:right;}
+.show{display:inline-block !important;} 
+.tab-block{border-top: 1px solid #cccccc; margin: 30px auto 65px auto;}
+.tab-block h2{padding:0;}
+.tab-list-item{min-height: 65px; border-bottom: 1px solid #cccccc; position:relative; padding: 0 0 0 20px; text-align: left;}
+.join-tab-block .tab-list-item{padding: 0;}
+.roles-one{width:60%; padding: 0 20px 0 0; float:left; text-align:left; line-height:50px; color:#149ed9; font-size: 22px;}
+.roles-one p, .roles-two p{ font-size: 22px;}
+.roles-one a, .roles-two a {color:#2bace2;}
+.roles-two{width:40%; padding: 0 20px 0 0; float:left; text-align:left; line-height:50px; color:#149ed9; font-size: 22px;}
+.benefits-one{width:60%; padding: 0 20px 0 0; float:left; text-align:left; color:inherit; color:#231f20;}
+.benefits-two{width:40%; padding: 0 20px 0 0; float:left; text-align:left; color:inherit; color:#231f20;}
+.tab-text .benefits-one strong, .tab-text .benefits-two strong{
+    color: #231f20;
+}
+.tab-list-item h2{cursor:pointer; display: table-cell; height: 65px; vertical-align: middle; color:#63bc47; font-size:24px; text-align: left; padding-right: 5px;}
+.tab-x{position:absolute; top:25px; right:10px; cursor:pointer; z-index: 88;}
+.tab-text{padding: 0 0 0 0;}
+.tab-text a{color:#000; font-weight: 700; text-decoration:none;}
+.tab-text strong{display: block;} 
+.tab-text strong{
+	color: #808080;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+	} 
+.tab-text p {
+    font-size: 19px;
+}
+.date, .spark-page.media-news strong{color:#808080; font-weight:600; font-size: 18px;} 
+.tab-text .pub{font-style: italic;}
+.tab-page-active-dialogue p {text-align:left;}
+.ital{font-style:italic;}
+.join-tab-block {
+    /*border-top: 2px solid #149ed9;*/
+    margin: 50px auto 30px auto;
+}
+.join-tab-block h2{padding:0;}
+.join-tab-block .tab-list-item {
+    border-bottom: 2px solid #149ed9;
+}
+.join-tab-block .table{
+	display: table;
+    width: 100%;
+	cursor:pointer;
+}
+.join-tab-block .cell{
+	display: table-cell;
+    height: 98px;
+    vertical-align: middle;
+    color: #231f20;
+    font-size: 24px;
+    text-align:center;
+    margin:0 auto;
+}
+.join-tab-block .tab-x {
+	position: absolute;
+    bottom: -15px;
+    right: 50%;
+    top: auto;
+	z-index: 88;
+}
+.page-template-join-page .spark-page .left-content-block{width:53%;max-width:485px;padding-right:70px;float:left;}
+.page-template-join-page .spark-page .right-content-block{width:44%;max-width:396px;float:left;}
+.page-template-join-page .spark-page .right-content-block p{text-align:center;}
+.page-template-join-page .spark-page .buttons{margin:0 auto;}
+.join-truths-list .list-item{display:inline-block;}
+.join-truths-list .list-item .title{display:inline-block;border-radius:50%;border:2px solid #ffffff;padding:10px;font-size:21px;font-weight:700;color:#ffffff;}
+.join-truths-list .list-item .title .cell{width:152px;height:152px;display:flex;align-items:center;justify-content:center;background:#9a9a9b;border-radius:50%;padding:10px;text-align:center;}
+.join-truths-list .list-item:hover .title{border:2px solid #66b84f;cursor:pointer;}
+.join-truths-list .list-item:hover .title .cell{background:#66b84f;}
+.join-truths-list .list-item:hover:nth-of-type(2) .title{border:2px solid #23aade;}
+.join-truths-list .list-item:hover:nth-of-type(2) .title .cell{background:#23aade;}
+.join-truths-list .list-item:hover:nth-of-type(3) .title{border:2px solid #c7d140;}
+.join-truths-list .list-item:hover:nth-of-type(3) .title .cell{background:#c7d140;}
+.join-truths-list .list-item:hover:nth-of-type(4) .title{border:2px solid #ad4195;}
+.join-truths-list .list-item:hover:nth-of-type(4) .title .cell{background:#ad4195;}
+.join-truths-list .list-item:hover:nth-of-type(5) .title{border:2px solid #1a76b5;}
+.join-truths-list .list-item:hover:nth-of-type(5) .title .cell{background:#1a76b5;}
+
+.careers-wrapper{background:URL('/wp-content/uploads/careers_bg.jpg'); height:800px; background-position:center;}
+.careers-wrapper .inspiration-tease{
+  width: 430px;
+  height: auto;
+  background-color: #63bc47;
+  color: #fff;
+  padding: 30px;
+  position: absolute;
+  top: 340px;
+}
+.career-read-more{
+cursor: pointer;
+color:#fff;
+    padding-top: 20px;
+    text-decoration:none;
+    font-size: 19px;
+    text-align: right;
+    float: none;
+    padding-bottom: 0;
+    display: block;
+}
+.career-read-more .readmore-x{margin-bottom: 3px;}
+
+.total-rewards-list{padding-top:20px;text-align:center;}
+#total-rewards-text-area{text-align:left;}
+.total-rewards-list .list-item{display:inline-block;margin-left:75px;}
+.total-rewards-list .list-item:first-of-type{margin-left:0;}
+.total-rewards-list .list-item .title{display:inline-block;border-radius:50%;border:2px solid #4d4d4f;padding:11px;font-size:25px;font-weight:600;color:#ffffff;}
+.total-rewards-list .list-item .title .cell{width:176px;height:176px;display:flex;align-items:center;justify-content:center;background:#9a9a9b;border-radius:50%;padding:20px;text-align:center;}
+.total-rewards-list .list-item:hover .title{border:2px solid #6ab84e;cursor:pointer;}
+.total-rewards-list .list-item:hover .title .cell{background:#6ab84e;}
+.total-rewards-list .list-item:hover:nth-of-type(2) .title{border:2px solid #1a76b5;}
+.total-rewards-list .list-item:hover:nth-of-type(2) .title .cell{background:#1a76b5;}
+.total-rewards-list .list-item:hover:nth-of-type(3) .title{border:2px solid #29aade;}
+.total-rewards-list .list-item:hover:nth-of-type(3) .title .cell{background:#29aade;}
+
+
+.benefits h2{color:#63bc47;}
+.benefits{font-size: 20px;}
+.left{text-align:left;}
+#map {
+width: 500px;
+margin: 0 auto;
+}
+.patient{position:relative;}
+.patient .arrow{position:absolute; left:50%; top:-30px; z-index:50;}
+.patient-story{
+    width: 430px;
+    padding: 19px 19px 0 19px;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 0 40px #4e4942;
+}
+.patient-block-one {
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+    height: 200px;
+}
+.patient-block-two {
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+    height: 200px;
+    text-align:left;
+}
+.patient-block-three {
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+    height: 250px;
+}
+.patient-two{left: auto; right: 200px;}
+.patient1-splash {
+    background: url(/wp-content/uploads/patient_01.jpg) no-repeat center;
+    background-size: cover;
+    height: 670px;
+    max-width: 1920px;
+    position: relative;
+}
+.patient2-splash {
+    background: url(/wp-content/uploads/patient_02.jpg) no-repeat left;
+    background-size: cover;
+    height: 670px;
+    max-width: 1920px;
+    position: relative;
+}
+.patient3-splash {
+    background: url(/wp-content/uploads/patient_03.jpg) no-repeat center;
+    background-size: cover;
+    height: 670px;
+    max-width: 1920px;
+    position: relative;
+}
+.patient-story .modal{
+	padding-top: 0; 
+	text-align: 
+	right; 
+	padding-bottom:19px; 
+	margin-top:19px;
+	display: inline-block;
+    float: right;
+    cursor: pointer;
+	font-size: 19px
+	}
+.patient-story .modal .readmore-x {
+   margin-bottom: 3px;
+}
+.patients-resources{text-align: center; padding-bottom: 30px;}
+.patients-resources h2{color: #1c75bc;}
+.patients-resources div:nth-of-type(1){padding-right:30px;}
+.patients-advocacy h2{padding:0;}
+.patients-page{font-size:22px;}
+.patients-advocacy{padding:0 0 50px 0;}
+.patients-advocacy a {color:#65bc47;}
+.spark-modal h2{font-size:24px; margin:0 0 30px 0;}
+.patients-page a {color:#ffffff;}
+
+.community-img{
+	float:left;
+	margin: 0 40px 30px 0;
+	-moz-box-shadow:0px 0px 16px rgba(0,0,0,0.3);
+-webkit-box-shadow:0px 0px 16px rgba(0,0,0,0.3);
+box-shadow:0px 0px 16px rgba(0,0,0,0.3);
+	}
+	
+.community-blocks {
+	margin-top:50px;
+}
+.hundred-width{width:100%;}
+.community-blocks p{margin: 30px 0; text-align:left;}
+.investors{max-width:1020px; padding-top: 30px;}
+.media .blue-button a{color:#fff; text-decoration:none;}
+.media-kit .inner-wrapper{margin:0 auto; margin-top:40px; display:inline-block;}
+.media-kit .bios{margin-right: 0 !important;}
+.media-kit a{color: #fff; text-decoration:none;}
+.media-kit .bios a{color: #231f20; text-decoration:none;}
+.blue-button{
+	font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    background: #2bace2;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+	}
+	.graphical-nav{
+	max-width: 1023px;
+    margin: 0 auto;
+    /* padding: 0 20px 0 20px; */
+    position: relative;
+	}
+.graphical-nav .nav-block{
+	position: absolute;
+    /*left: 200px;*/
+    bottom: 25px;
+    height: 265px;
+	}
+.nav-block-img-wrap{width:33.3%; display:inline-block; text-align:center;}
+#home-splash{
+    background-size: cover;
+    height: 865px;
+    max-width: 1920px;
+    position:relative;
+	margin: -1px 0 0 0;
+	overflow: hidden;
+}
+.home-splash-one{background: url(/wp-content/uploads/spark/homesplash.jpg) no-repeat center;}
+.home-splash-two{background: url(/wp-content/uploads/spark/homesplash_2.jpg) no-repeat center;}
+.home-splash-three{background: url(/wp-content/uploads/spark/homesplash_3.jpg) no-repeat center;}
+.home-splash-four{background: url(/wp-content/uploads/spark/homesplash_4.jpg) no-repeat center;}
+.anchor-link{display:inline-block; position: absolute; top: -120px; visability:hidden;}
+.graphical-nav .caption{
+	width: 100%;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    text-align: right;
+    padding: 30px 0 0 0;
+    position: absolute;
+    bottom: 0;
+}
+.patient-block-three .caption, .patient-block-two .caption, .patient-block-one .caption {
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+#home-splash h1{
+ 	color: #fff;
+    font-size: 50px;
+    width: 400px;
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    line-height: 45px;
+}
+#main-ir-content {
+	background-color:#ffffff;
+	float:right;
+	width:69%;
+	display:block;
+	margin-top:129px;
+	padding-top:50px;
+	padding-left:60px;
+	padding-bottom:50px;
+}
+.bio-header {
+	background-color:#90278e;
+	padding:18px 20px 18px 20px;
+	margin-bottom:16px;
+}
+
+.bio-header-purple {
+	background-color:#90278e;
+}
+.bio-header-light-blue {
+	background-color:#2bace2;
+}
+.bio-header-green {
+	background-color:#65bc47;
+}
+.bio-header-dark-blue {
+	background-color:#1c75bc;
+}
+#main-ir-content h1 {
+	font-size:40px;
+	color:#2bace2;
+	font-weight:700;
+	padding-bottom:26px;
+}
+
+#main-ir-content h2 {
+	font-size:24px;
+	color:#231f20;
+	font-weight:400;
+	padding-bottom:26px;
+}
+
+.bio-img {
+	box-shadow: 0 0 20px #b1b1b1;
+	width:230px;
+	float: left;
+}
+
+.director-profile-text{
+	padding: 0 0 0 40px; 
+	overflow: auto;
+}
+
+.director-profile-content{
+	padding-top: 20px;
+	max-width: 1000px;
+}
+
+.director-page-content{
+	max-width: 1000px;
+}
+
+#main-ir-content p {
+	color:#231f20;
+	font-size:18px;
+	line-height:1.4em;
+	padding-bottom:20px; 
+}
+
+#main-ir-content h3 {
+	color:#ffffff;
+	font-size:22px;
+	font-weight:400;
+	text-transform:uppercase;
+}
+
+.shadow {
+	box-shadow: 0 0 20px #b1b1b1;
+}
+
+#footer {
+	max-width:1920px;
+	margin:0 auto 0 auto;
+	background-color:#d9d9d9;
+	padding:0 0 52px 0;
+}
+
+#footer-inner {
+	max-width:1460px;
+	margin:0 auto 0 auto;
+	padding:0 30px 0 30px;
+}
+
+#footer-text {
+	float:left;
+}
+
+#footer p {
+	font-size:17px;
+	line-height:1.3em;
+	color:#58595b;
+}
+
+#footer ul {
+	display:block;
+}
+
+#footer li {
+	display:block;
+	float:right;
+	margin-left:38px;
+	font-size:15px;
+	text-transform:uppercase;
+}
+
+#footer li a {
+	color:#58595b;
+	text-decoration:none;
+	font-weight:700;
+}
+#footer li a:hover {
+	color:#65bc47;	
+}
+#mobile-spark-menu,#main-menu .sub-menu{
+	display:none;
+}
+.mobile-hidden,.show-mobile{display:block;}
+.copyright-social{margin:20px 0 0 0;}
+#footer .grad{height:23px; background-image:linear-gradient(#abaaab, #D9D9D9); margin-bottom:35px;}
+.w-gallery{
+	overflow: hidden;
+    height: 320px;
+	}
+.spark-modal {
+    display: none; 
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.spark-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 50px; 
+    border: 1px solid #888;
+    max-width: 950px; /* Could be more or less, depending on screen size */
+}
+
+.spark-modal-content h4 {
+	margin:0;
+	padding:0 0 30px 0;
+	font-weight:600;
+	font-size:30px;
+}
+
+
+.spark-modal-content p {
+	padding:0 0 30px 0;
+	margin:0;
+}
+
+.spark-modal-content p:last-of-type {
+	padding-bottom:0 !important;
+}
+
+/* The Close Button */
+.spark-modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+	position: absolute;
+    right: -30px;
+    top: -45px;
+    cursor: pointer;
+}
+.spark-modal-content .hidden{display:block; position:relative;} 
+.spark-modal-content img{width: 100%;}
+.responsivGallery-position{text-transform: uppercase;}
+.bio-pic{
+	width:280px !important;
+	float:left;
+	padding:0 20px 20px 0;
+	} 
+	
+.responsiveGallery-item .hidden{padding:20px; font-size:18px; background-color:#2bace2; height:320px; width:320px; position:relative;}
+.responsiveGallery-item .hidden img{width:100%; height:auto;}
+.responsiveGallery-item .hidden .quote{position:absolute; display: table; padding:20px; top:0; left:0; z-index:20; height:100%;}
+.responsiveGallery-item .hidden .quote span {display: table-cell; vertical-align:middle; } 
+.responsiveGallery-item{cursor: pointer;}
+.wpcf7-list-item{display:block; font-size:102%; padding: 5px 0 5px 0;}
+.wpcf7-list-item-label{ font-size:18px;}
+input[type=text],input[type=email] {
+    font-weight: normal;
+    border: 1px solid #000;
+	font-size:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 4px 0 10px 0;
+    padding: 5px;
+}
+select {
+    color: #000000;
+    font-weight: normal;
+    border: 1px solid #000;
+    height: 35px;
+    margin: 4px 0 10px 0;
+    padding: 5px;
+	font-size:100%;
+	width:100%;
+}
+textarea {width:100%; margin-top:4px;}
+input[type=submit]{font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    background: #2bace2;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+	border-width: 0;
+    border-style: none;
+	}
+.contact-page{padding:0 0 50px 0;}
+.wpcf7-not-valid-tip, .required{color: #C70003;}
+.contact-bottom-block-one{padding: 0 20px 0 0;}
+.contact-bottom-block-two{padding: 0 0 0 20px;}
+.contact-bottom-block-one,.contact-bottom-block-two{float:left; width:50%;}
+.contact-bottom-block-one h2,.contact-bottom-block-two h2{font-size: 25px; color:#63bc47;}
+.contact-bottom-block-one a,.contact-bottom-block-two a{color: #231f20; text-decoration: none;}
+.contact-bottom-block-one h2, .contact-bottom-block-two h2{padding: 10px 0 0 0;}
+.contact-page a{color:#63bc47; text-decoration: none;}
+.patient-banner-two, .patient-banner-one{
+    width: 100%;
+    float: none;
+    text-align: left;
+    font-size: 19px;
+    padding-bottom: 30px;
+}
+
+.patient-banner-two div, .patient-banner-one div{
+	display: table-cell;
+    width: 50%;
+    vertical-align: top;
+	text-align: left;
+}
+.tab-list-item td{padding: 30px; vertical-align: middle;}
+.map-area p{text-align:center;} 
+.mobile-show{display:none;}
+.mobile-show-900{display:none;}
+.spark-modal {
+    z-index: 2000000;
+}
+.interstitial-text{position:relative;}
+.interstitial-text h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #65bc47;
+  }
+.interstitial-text .body{
+    font-size:30px;
+}
+.interstitial-text a{
+	font-size: 17px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    background: #2bace2;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+.gene-page-intro{
+    text-align: center;
+    padding: 0 0 60px 0;
+} 
+.gene-page-intro .green-button {
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+    background: #63bc47;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.gene-therapy-resources ul li a img{margin-bottom: 15px;}
+.gene-therapy-resources a{color: #2bace2; text-decoration: none; font-weight:700;font-size:20px !important;}
+.gene-therapy-resources h2{text-align:center; color:#63bc47; margin: 20px 0;}
+.gene-therapy-resources{padding-bottom: 20px;}
+.gene-therapy-resources ul{
+  width:100%;
+  overflow:hidden;
+}
+.gene-therapy-resources li{
+  padding:0 10px 40px 10px;
+  float:left;
+  display:inline;
+  width:50%;
+  line-height: 1;
+}
+.gene-therapy-resources p {margin-top: 60px;font-size:13px; margin-bottom:0;}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.page-template-patients-page .healthcare-page-partners a {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: underline;
+}
+  .page-template-patients-page .healthcare-page-partners a.blue-button {
+    text-decoration: none;
+}
+.page-template-patients-page .bio-pic {
+        width: 100% !important;
+        float: none;
+        padding: 0;
+}
+.page-template-patients-page .spark-modal-content {
+        padding: 0px;
+}
+.page-template-patients-page .interstitial-text {
+    position: relative;
+    padding: 50px;
+}
+.page-template-patients-page .spark-modal-content h4 {
+        padding: 50px 50px 30px 50px;
+        font-size: 25px;
+ }
+.page-template-patients-page .inspiration-body{padding:30px 50px 50px 50px;}
+.page-template-patients-page .spark-modal-close {
+        right: 20px;
+        top: 5px;
+}
+.page-template-patients-page .responsivGallery-position {
+    font-size: 1.2em;
+}
+
+.page-template-patients-page .patient-banner {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+        padding-bottom: 0;
+}
+.page-template-patients-page .patient-banner.left {
+    text-align: left;
+}
+.page-template-patients-page .patient-banner.right {
+    text-align: right;
+}
+.page-template-patients-page .community-banners{
+    margin: 0 auto;
+    padding-right: 0;
+	padding:20px 0 0 0;
+}
+.page-template-patients-page .patients-resources {
+    text-align: center;
+    padding: 40px 0;
+}
+.page-template-patients-page .tab-block {
+    border-top: 1px solid #cccccc;
+    margin: 0;
+}
+.page-template-patients-page .patients-resources div:nth-of-type(1) {
+    padding-right: 0;
+}
+.page-template-patients-page .learn-more-therapy{
+    background: url(/wp-content/uploads/patients-gene-therapy-background.png);
+    min-height: 273px;
+    background-repeat: no-repeat;
+    background-size: cover;
+        margin: 60px 0 0 0;
+    text-align: center;
+    padding: 135px 0 0 0;
+}
+.page-template-patients-page .learn-more-therapy a{
+    color: #191d63;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.page-template-patients-page .advocate-profile{
+    height:300px;
+    position:relative;
+}
+.page-template-patients-page .advocate-wrapper{
+    width: 33.3%;
+    float: left;
+}
+.page-template-patients-page .advocate-wrapper:nth-of-type(1n) {
+    padding-right: 8px;
+}
+.page-template-patients-page .advocate-wrapper:nth-of-type(2n) {
+    padding: 0 4px;
+}
+.page-template-patients-page .advocate-wrapper:nth-of-type(3n) {
+    padding-left: 8px;
+}
+.page-template-patients-page .advocacy .content-block{padding:0 0 20px 0;}
+.page-template-patients-page .advocate-identity{
+    background: rgba(101,188,71,0.6);
+    position: absolute;
+    bottom: 0;
+    padding: 15px; 
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+.page-template-patients-page .advocacy{padding: 20px 0;}
+.page-template-patients-page .advocate-bio{padding: 30px;}
+.page-template-patients-page .advocate-bio img{
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+}
+.page-template-patients-page .spark-modal h2 {
+    font-size: 24px;
+    margin: 0 0 0 0;
+    }
+.page-template-patients-page .advocate-title{
+    margin: 0 0 20px 0;
+    color: #6dbe4f;
+    font-weight: 700;
+    display: inline-block;
+  }
+.page-template-media-page .download-img{float: left; width: 33.3%; padding: 10px;}
+.page-template-media-page .dl-caption{margin-top: 8px;}
+.page-template-media-page .media .read-more{color:#fff; text-align: center; margin: 0 auto; display: block; width: 200px; float: none;}
+.media-kit .bios {
+    margin-right: auto !important;
+}
+/* 
+lost password 
+*/
+.page-id-1030 .bg-e8e9eb {
+    background: #e8e9eb;
+    padding: 2em 1em 1em;
+    margin: 1em auto 2em;
+}
+
+.page-id-1030 .title{
+	margin-top: 3em;
+	color:#4d4d4f;
+}
+
+
+.page-id-1030 .tml-submit-wrap input[type=submit] {
+    padding: 5px 75px 5px 75px;
+    border: 1px solid #fff;
+}
+
+.page-id-1030 #main-menu ul{
+	display: none;
+}
+
+.page-id-1030 p.tml-submit-wrap {
+    text-align: center;
+}
+
+.page-id-1030 .tml-action-links{
+	display: none !important;
+}
+
+.page-id-1030 #footer-text ul{
+	display: none !important;
+}
+/* end lost password */
+/* login page */
+.page-id-1027 .block p, .content-block p, .page-id-1885 .wpcf7-form {
+    margin: 0 0 15px 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+span.lot_number input {max-width:300px;}
+span.i_am_a_other input,span.spark_product_other input {width:300px;}
+span.product_therapy_other input {width:300px;}
+
+.page-id-1885 .form-row{padding:0 0 20px 0}
+.page-id-1885 .i_am_a_other,.page-id-1885 .spark_product_other{display: inline-block;
+    margin-bottom: -9px;
+    margin-left: 10px;
+    width: 200px;}
+.page-id-1885 .i_am_a span.wpcf7-list-item {
+    display: block;
+    margin: 0 0 0 1em;
+}
+.page-id-1885 .spark_product span.wpcf7-list-item {
+    display: block;
+    margin: 0 1em 0 0;
+}
+span.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+.page-id-1885 .i_am_a span.wpcf7-list-item.last,.page-id-1885 .spark_product span.wpcf7-list-item.last {
+    display: inline-block;
+}
+.page-id-1885 .form-state{
+	display: block;
+    width: 70%;
+    float: left;
+}
+.page-id-1885 .form-zip{
+	width: 30%;
+    padding: 0 0 0 10px;
+    float: left;
+}
+.page-id-1885  .view-luxturna,.page-id-1885 .view-spark,.page-id-1885 .view-other{
+	display:none;
+}
+.page-id-1885 input[type=submit] {
+    margin-top: 0px;
+    }
+.page-id-1027 .tml {
+  max-width: 40% !important;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+}
+
+.page-id-1027 .tml label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-family: "proxima-nova" !important;
+}
+
+.page-id-1027 input#wp-submit {
+    font-size: 26px;
+}
+
+.page-id-1027 .tml .tml-action-links li {
+    border: none;
+    border-right: none!important;
+	}
+
+.page-id-1027 #main-menu, #mobile-spark-menu{
+	display: none;
+}
+
+.page-id-1027 #footer-text ul{
+	display: none !important;
+}
+
+.page-id-1027 input#wp-submit {
+    width: 100%;
+}
+
+.page-id-1027 .bg-e8e9eb {
+    background: #e8e9eb;
+    padding: 2em 1em 1em;
+    margin: 0 auto 0;
+}
+
+.page-id-1027 .title{
+	margin-top: 3em;
+	color:#4d4d4f;
+}
+
+.page-id-1027 .tml-action-links li{
+    font-size: 22px;
+	}
+
+
+.page-id-1027 .tml-action-links li a{
+	text-decoration: underline !important;
+}
+
+.page-id-1027 .tml .tml-action-links a:after {
+    content: '\2192';
+}
+
+.page-id-1027 .input#wp-submit{
+	font-size: 26px;
+}
+
+
+.page-id-1027 .tml-action-links li{
+  font-family: "proxima-nova";
+}
+/* login page end */
+.page-template-contact-page .tab-text strong {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: none;
+    display: inline;
+}
+.page-template-gene-therapy-page .gene-page-intro{
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+.page-template-gene-therapy-page .gene-page-intro .green-button {
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+    background: #63bc47;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.page-template-gene-therapy-page .gene-therapy-resources ul li a img{margin-bottom: 15px;}
+.page-template-gene-therapy-page .gene-therapy-resources a{color: #2bace2; text-decoration: none; font-weight:700;font-size:20px !important;}
+.page-template-gene-therapy-page .gene-therapy-resources h2{text-align:center; color:#63bc47; margin: 20px 0;}
+.page-template-gene-therapy-page .gene-therapy-resources{padding-bottom: 20px;}
+.page-template-gene-therapy-page .gene-therapy-resources ul{
+  width:100%;
+  overflow:hidden;
+}
+.page-template-gene-therapy-page .gene-therapy-resources li{
+  padding:0 10px 40px 10px;
+  float:left;
+  display:inline;
+  width:50%;
+  line-height: 1;
+}
+.page-template-gene-therapy-page .gene-therapy-resources p {margin-top: 60px;font-size:13px; margin-bottom:0;}
+.page-template-gene-therapy-page .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
+.page-template-gene-therapy-page .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.page-template-hemophilia-page .hemo-team-profile{
+    height:300px;
+    position:relative;
+}
+.page-template-hemophilia-page .hemo-team-wrapper{
+    width: 33.3%;
+    float: left;
+}
+.page-template-hemophilia-page .hemo-team-title{color: #63bc47;
+    font-size: 19px;
+    font-weight: 700;
+    display: block;}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(1) {
+    padding-right: 8px;
+}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(2) {
+    padding: 0 4px;
+}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(3) {
+    padding-left: 8px;
+}
+.page-template-hemophilia-page .hemo-team-identity{
+    background: rgba(101,188,71,0.6);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+.page-template-hemophilia-page .hemo-team{padding: 0 0 60px 0;}
+.page-template-hemophilia-page .spark-modal .hemo-team-bio h2{
+margin:0;
+}
+.page-template-hemophilia-page .hemo-team-bio img{
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+}
+.page-template-hemophilia-page .ird-community-contact a{color:#fff;}
+.page-template-hemophilia-page .what-is h2{font-size: 30px;
+    font-weight: 600;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    }
+.page-template-hemophilia-page .hemo-intro, .spark-page-what{
+  padding: 0 0 30px 0;
+}
+.page-template-hemophilia-page .hemo-intro a:last-of-type{
+    color: #fff;
+    background-color: #63bc47;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+.page-template-hemophilia-page .hemo-intro p:last-of-type{
+    text-align: center;
+}
+.page-template-hemophilia-page img.alignright{float:right; margin: 0 0 0 20px;}
+.page-template-hemophilia-page img.alignleft{    float: left;
+    margin: 0 20px 0 0;
+}
+.page-template-hemophilia-page .gt a{
+    color: #191d63;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 20px 10px 20px;
+    clear: both;
+}
+.page-template-hemophilia-page .gt{text-align:center; padding: 0 0 60px 0;}
+.page-template-hemophilia-page .patients-gene-therapy{
+    padding: 30px 0 50px 0;
+}
+.page-template-hemophilia-page .inspiration-tease{
+    width: 430px;
+    height: auto;
+    background-color: #63bc47;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 90px;
+  }
+.page-template-hemophilia-page .inspiration .content-block{padding: 0 0 0 0; height: 100%;}
+.page-template-hemophilia-page .inspiration .read-more {
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 19px;
+    text-align: right;
+    float: none;
+    padding-bottom: 0;
+    display: block;
+}
+.page-template-hemophilia-page .inspiration-full-text .spark-modal h2 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+.page-template-hemophilia-page .inspire-tagline{position: absolute;
+    bottom: 20px;
+    color: #fff;
+    right: 0;
+    font-style: italic;
+    font-size: 18px;}
+.page-template-hemophilia-page .ird-community-contact{padding: 30px 0 60px 0;}
+.page-template-hemophilia-page .resource-item-ird{
+    padding: 10px 0 30px 0;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.page-template-hemophilia-page .resource-item-ird img{
+    max-width: 300px;
+}
+.page-template-hemophilia-page .image-overlay-title{
+    background: rgba(101,188,71,0.6);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 90px;
+}
+.page-template-hemophilia-page .bg-808080{
+    background-color:#808080;
+}
+.page-template-hemophilia-page .what-block-one{float: left; width: 80%; padding:0 20px 0 0;}
+.page-template-hemophilia-page .what-image-two{float: left; padding: 0 20px 0 0;}
+/*.what-block-two{overflow: hidden;}*/
+.page-template-hemophilia-page .footer-item{background-repeat: no-repeat; height: 338px; width:100%; position: relative;}
+.page-template-hemophilia-page .footer-item-wrapper{height: 338px; width:50%; float:left; position: relative;}
+.page-template-hemophilia-page .bg-149ed9{
+  position: relative;
+}
+.page-template-ird-page .patients-resources div:nth-of-type(1) {
+    padding-right: initial;
+}
+.page-template-ird-page .ird-community-contact a,.page-template-hemophilia-page .ird-community-contact a{color:#fff; text-decoration:none;}
+.page-template-ird-page .what-is h2{font-size: 30px;
+    font-weight: 600;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    }
+.page-template-ird-page .ird-intro, .spark-page-what{
+  padding: 0 0 30px 0;
+}
+.page-template-ird-page .ird-intro a:last-of-type{
+    color: #fff;
+    background-color: #2bace2;
+    text-decoration: none;
+    padding: 10px 20px 5px 20px;
+    display: inline-block;
+}
+.page-template-ird-page .ird-intro p:last-of-type{
+    text-align: center;
+}
+.page-template-ird-page img.alignright{float:right; margin: 0 0 0 20px;}
+.page-template-ird-page img.alignleft{    float: left;
+    margin: 0 20px 0 0;
+}
+.page-template-ird-page .gt a{
+    color: #191d63;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 20px 10px 20px;
+    clear: both;
+}
+.page-template-ird-page .gt{text-align:center; padding: 0 0 60px 0;}
+.page-template-ird-page .patients-gene-therapy p:last-of-type a:last-of-type{
+    color: #191d63;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 20px 10px 20px;
+    clear: both;
+}
+.page-template-ird-page .patients-gene-therapy{
+    padding: 30px 0 50px 0;
+}
+.page-template-ird-page .inspiration-tease{width: 430px;
+    height: auto;
+    background-color: #63bc47;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 90px;
+}
+.page-template-ird-page .inspiration .content-block{
+    padding: 0 0 0 0;
+    height: 100%;
+}
+.page-template-ird-page .inspiration .read-more {
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 19px;
+    text-align: right;
+    float: none;
+    padding-bottom: 0;
+    display: block;
+}
+.page-template-ird-page .inspiration-full-text .spark-modal h2 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+.page-template-ird-page .ird-community-contact, .page-template-ird-page .ird-community-contact p,.page-template-hemophilia-page .ird-community-contact p,.page-template-hemophilia-page .ird-community-contact{padding: 30px 0 20px 0;text-align: center;}
+.page-template-ird-page .inspire-tagline{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    right: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+.page-template-ird-page .resource-item-ird{
+    padding: 10px 0 30px 0;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.page-template-ird-page .image-overlay-title{
+    background: rgba(101,188,71,0.6);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 90px;
+}
+.page-template-ird-page .bg-808080{
+    background-color:#808080;
+}
+.page-template-ird-page .footer-item{background-repeat: no-repeat; height: 338px; width:50%; float:left; position: relative;}
+.page-template-ird-page .what-block-one{float: left; padding:0 20px 0 0; width:50%;}
+.page-template-ird-page .what-block-one img {width:100%; max-width:440px;}
+.page-template-ird-page .what-image-one{float: left; padding: 0 10px 0 20px; margin-bottom: 70px;}
+.page-template-ird-page .ird-community-contact h3, .page-template-hemophilia-page .ird-community-contact h3{
+	font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0 15px 0;
+}
+.page-template-ird-page .what-block {
+    float: left;
+    padding: 0 20px 0 0;
+    width: 70%;
+}
+.page-template-ird-page .what-image {
+    float: left;
+    padding: 0 10px 0 20px;
+    margin-bottom: 70px;
+}
+.page-template-ird-page .advocate-text,.page-template-hemophilia-page .advocate-text{
+	position: absolute;
+    bottom: 0;
+    background: rgba(101,188,71,0.7);
+    width: 100%;
+    padding: 30px 5px;
+    font-size: 19px;
+}
+.page-template-ird-page .advocate-photo,.page-template-hemophilia-page .advocate-photo{
+	position: relative;
+    width: 100%;
+    max-width: 598px;
+    margin: 20px auto 0 auto;
+}
+.page-template-ird-page .advocate-photo img,.page-template-hemophilia-page .advocate-photo img{
+    width: 100%;
+}
+.page-template-pompe-page .patients-resources {
+    padding-top:12px;
+}
+.page-template-pompe-page .patients-resources h2 {
+    padding-bottom:25px;
+}
+.page-template-pompe-page .ird-community-contact a{color:#fff;}
+.page-template-pompe-page .what-is h2{font-size: 30px;
+    font-weight: 600;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    }
+.page-template-pompe-page .ird-intro, .spark-page-what{
+  padding: 0 0 45px 0;
+}
+.page-template-pompe-page .ird-intro a:last-of-type{
+    color: #fff;
+    background-color: #6bb852;
+    text-decoration: none;
+    padding: 10px 20px;
+	margin-top:20px;
+    display: inline-block;
+}
+.page-template-pompe-page .ird-intro p:last-of-type{
+    text-align: center;
+	margin-bottom:35px;
+}
+.page-template-pompe-page img.alignright{float:right; margin: 0 0 0 20px;}
+.page-template-pompe-page img.alignleft{    float: left;
+    margin: 0 20px 0 0;
+}
+.page-template-pompe-page .gt a{
+	font-size:20px;
+    color: #1870b3;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 25px 10px 25px;
+    clear: both;
+}
+.page-template-pompe-page .gt{text-align:center; padding: 0 0 90px 0;}
+.page-template-pompe-page .patients-gene-therapy p:last-of-type a:last-of-type{
+    color: #191d63;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px 20px 10px 20px;
+    clear: both;
+}
+.page-template-pompe-page .patients-gene-therapy{
+    padding: 100px 0 45px 0;
+}
+.page-template-pompe-page .inspiration-tease{width: 430px;
+    height: auto;
+    background-color: #63bc47;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 90px;
+}
+.page-template-pompe-page .inspiration .content-block{
+    padding: 0 0 0 0;
+    height: 100%;
+}
+.page-template-pompe-page .inspiration .read-more {
+    cursor: pointer;
+    padding-top: 20px;
+    font-size: 19px;
+    text-align: right;
+    float: none;
+    padding-bottom: 0;
+    display: block;
+}
+.page-template-pompe-page .inspiration-full-text .spark-modal h2 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+.page-template-pompe-page .ird-community-contact{padding: 30px 0 60px 0;}
+.page-template-pompe-page .disease-advocacy-team {
+	padding-bottom:45px;
+}
+.page-template-pompe-page .disease-advocacy-team h2 {
+	color:#6bb852;
+	text-align:center;
+	padding:40px 0 35px;
+}
+.page-template-pompe-page .disease-advocacy-team p {
+	text-align:center;
+}
+.page-template-pompe-page .disease-advocacy-team p a {
+	color:#231f20;
+	text-decoration:none;
+	font-weight:700;
+}
+.page-template-pompe-page .disease-advocacy-team .team-photo{width:100%; max-width:600px; position: relative; margin:0 auto 45px;}
+.page-template-pompe-page .disease-advocacy-team .team-photo img{display:block; width:100%; max-width:600px; height:auto;}
+.page-template-pompe-page .inspire-tagline{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    right: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+.page-template-pompe-page .resource-item-ird{
+    padding: 10px 30px 30px 0;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.page-template-pompe-page .resource-item-ird img{
+	margin-bottom:10px;
+}
+.page-template-pompe-page .image-overlay-title{
+    background: rgba(101,188,71,0.6);
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 90px;
+}
+.page-template-pompe-page .disease-advocacy-team .image-overlay-title{
+	height:74px;
+	text-align:center;
+	padding-top:25px;
+}
+.page-template-pompe-page .bg-808080{
+    background-color:#808080;
+}
+.page-template-pompe-page .footer-item{background-repeat: no-repeat; height: 338px; width:50%; position: relative; margin:0 auto;}
+.page-template-pompe-page .what-block-one{float: left; padding:0 20px 0 0;}
+.page-template-pompe-page .what-image-two{float: left; padding: 0 20px 0 0; margin-bottom: 70px;}
+
+.page-template-home-page .news-events strong{display: block;}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.blue-button {
+    font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    background: #2bace2;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+a.white-button {
+    font-size: 19px;
+    line-height: 1.631em;
+    font-weight: 400;
+    color: #000000;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    background: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+.page-template-join-page .buttons a.blue-button, .page-template-join-page .buttons a.white-button{width:350px;line-height:1.125em;margin:30px 22px 50px;padding:10px;}
+.cta{text-align: center; padding: 20px 0 0 0;}
+
+.post-type-archive-voices .content-block.spark-page {
+	padding-bottom:34px;
+}
+
+.post-type-archive-voices .content-block.spark-page h3 {
+	font-size:20px;
+	font-weight:400;
+}
+.voices-categories {
+	margin-bottom:45px;
+	padding-top:38px;
+}
+.voices-categories a {
+	display:inline-block;
+	font-size:14px;
+	font-weight:700;
+	line-height:1em;
+	color:#6b6b6c;
+	text-transform:uppercase;
+	text-decoration:none;
+	margin:0 12px 15px 0;
+	padding:7px 20px;
+	border:1px solid #6b6b6c;
+}
+.voices-categories a:last-of-type {
+	margin-right:0;
+}
+.voices-categories a:hover, .voices-categories a.on {
+	color:#ffffff;
+	background:#6b6b6c;
+}
+.voice {
+	width:320px;
+	height:320px;
+	overflow:hidden;
+	margin-bottom:30px;
+	background:#ffffff;
+	box-shadow: 0 0 20px #b1b1b1;
+}
+.voice img {
+	width:100%;
+}
+.voice a {
+	text-decoration:none;
+}
+.voice .text {
+	color:#666666;
+	padding:15px 25px 25px;
+}
+.voice .text .category {
+	font-size:10px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+.voice .text h3 {
+	font-size:21px;
+	color:#231f20;
+	margin-bottom:15px;
+}
+.voice .text p {
+	font-size:17px;
+	line-height:1.4em;
+}
+.voice.featured {
+	width:670px;
+}
+.voice.featured img {
+	float:left;
+	max-width:335px;
+}
+.voice.featured .text {
+	float:left;
+	max-width:335px;
+	padding:25px;
+}
+.voice.featured .text h3 {
+	font-size:26px;
+}
+.graphical-nav .g-nav-item{
+    float: left;
+    width: 195px;
+    height: 225px;
+    margin: 0 0 0 36px;
+    position:relative;
+}
+.g-nav-item .g-nav-text{
+position: absolute;
+display: block;
+bottom: 0;
+color: #fff;
+font-weight: 900;
+font-size: 20px;
+width:100%;
+padding: 15px;
+}
+.g-nav-item .g-nav-text.one{
+background: -moz-linear-gradient(left, rgba(28,117,188,0.7) 35%, rgba(28,117,188,0.05) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, right top, color-stop(35%,rgba(28,117,188,0.7)), color-stop(100%,rgba(28,117,188,0.05))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(left, rgba(28,117,188,0.7) 35%,rgba(28,117,188,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(left, rgba(28,117,188,0.7) 35%,rgba(28,117,188,0.05) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(left, rgba(28,117,188,0.7) 35%,rgba(28,117,188,0.05) 100%); /* IE10 preview */
+background: linear-gradient(to right, rgba(28,117,188,0.7) 35%,rgba(28,117,188,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#0dffffff',GradientType=1 ); /* IE6-8 */
+}
+.g-nav-item .g-nav-text.two{
+background: -moz-linear-gradient(left, rgba(111,112,112,0.7) 35%, rgba(111,112,112,0.05) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, right top, color-stop(35%,rgba(111,112,112,0.7)), color-stop(100%,rgba(28,117,188,0.05))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(left, rgba(111,112,112,0.7) 35%,rgba(111,112,112,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(left, rgba(111,112,112,0.7) 35%,rgba(111,112,112,0.05) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(left, rgba(111,112,112,0.7) 35%,rgba(111,112,112,0.05) 100%); /* IE10 preview */
+background: linear-gradient(to right, rgba(111,112,112,0.7) 35%,rgba(111,112,112,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#0dffffff',GradientType=1 ); /* IE6-8 */
+}
+.g-nav-item .g-nav-text.three{
+background: -moz-linear-gradient(left, rgba(43,172,226,0.7) 35%, rgba(43,172,226,0.05) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, right top, color-stop(35%,rgba(28,117,188,0.7)), color-stop(100%,rgba(28,117,188,0.05))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(left, rgba(43,172,226,0.7) 35%,rgba(43,172,226,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(left, rgba(43,172,226,0.7) 35%,rgba(43,172,226,0.05) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(left, rgba(43,172,226,0.7) 35%,rgba(43,172,226,0.05) 100%); /* IE10 preview */
+background: linear-gradient(to right, rgba(43,172,226,0.7) 35%,rgba(43,172,226,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#0dffffff',GradientType=1 ); /* IE6-8 */
+}
+.g-nav-item .g-nav-text.four{
+background: -moz-linear-gradient(left, rgba(109,189,80,0.7) 35%, rgba(109,189,80,0.05) 100%); /* FF3.6-15 */
+background: -webkit-gradient(linear, left top, right top, color-stop(35%,rgba(109,189,80,0.7)), color-stop(100%,rgba(28,117,188,0.05))); /* Chrome4-9,Safari4-5 */
+background: -webkit-linear-gradient(left, rgba(109,189,80,0.7) 35%,rgba(109,189,80,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(left, rgba(109,189,80,0.7) 35%,rgba(109,189,80,0.05) 100%); /* Opera 11.10-11.50 */
+background: -ms-linear-gradient(left, rgba(109,189,80,0.7) 35%,rgba(109,189,80,0.05) 100%); /* IE10 preview */
+background: linear-gradient(to right, rgba(109,189,80,0.7) 35%,rgba(109,189,80,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36dbd50', endColorstr='#0d6dbd50',GradientType=1 ); /* IE6-8 */
+}
+.single-voices .contact-top-block {
+    /* padding:75px 0 60px; */
+    padding:75px 0 60px;
+}
+.single-voices .content-block.max-width1020 {
+    max-width: 1020px;
+    padding: 45px 75px 35px;
+	box-shadow: 0 0 20px #b1b1b1;
+}
+.single-voices .voices-title {
+    max-width:1020px;
+	font-size:21px;
+	font-weight:700;
+	line-height:1em;
+	color:#6b6c6c;
+	text-transform:uppercase;
+	margin:0 auto;
+    padding:50px 0 0;
+}
+.single-voices .voices {
+    max-width:1020px;
+	margin:0 auto;
+    padding:30px 0 0;
+}
+.single-voices .content-block h2 {
+    text-align: left;
+    font-size: 46px;
+	line-height:1.125em;
+    padding: 15px 0 25px 0;
+    font-weight: 700;
+}
+.single-voices .content-block p {
+    font-size:19px;
+	font-weight:400;
+	line-height:1.5em;
+	color:#666666;
+	margin-bottom:35px;
+}
+.single-voices img.alignright{float:right;margin:0 0 10px 20px;}
+.single-voices .content-block p:first-of-type {
+    font-size:27px;
+	line-height:1.33em;
+	color:#6b6c6c;
+}
+.single-voices .content-block blockquote p:first-of-type {
+    font-size:22px;
+	font-weight:700;
+	line-height:1.33em;
+	color:#1b75bc;
+	border-top:1px solid #b5b5b5;
+	border-bottom:1px solid #b5b5b5;
+	padding:20px 0;
+}
+.single-voices .voice-category{
+	text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #1c75bc;
+}
+.single-voices .byline-date{
+	padding: 0 0 30px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+	color:#6b6c6c;
+}
+.single-voices .byline-sep{
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+}
+.single-voices .post-thumbnail {
+	margin:0 0 40px -75px;
+}
+.single-voices .videoWrapper{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	margin-bottom:35px;
+}
+.single-voices .videoWrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.single-voices .content-block a.btn {
+	display:inline-block;
+	font-size:21px;
+	line-height:1em;
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px 20px;
+	background:#6dbe52;
+}
+
+.total-rewards-list .show.list-item .title .cell {
+    background: #6ab84e;
+}
+.total-rewards-list .show.list-item .title {
+    border: 2px solid #6ab84e;
+    cursor: pointer;
+}
+#total-rewards-text-area li, .total-rewards-list .list-item .hidden li{
+  list-style: none;
+  font-size: 19px;
+  line-height: 32px;
+  position: relative;
+  padding: 0 0 0 20px;
+  text-align:left;
+}
+#total-rewards-text-area li:before, .total-rewards-list .list-item .hidden li:before{
+  content:"\2219";  
+  font-size:2.5em; 
+  line-height:0;  
+  position:absolute; 
+  top: 14px;
+  left: 0;
+}
+#total-rewards-text-area ul, .total-rewards-list .list-item .hidden ul{
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 0;
+}
+#total-rewards-text-area h4, .total-rewards-list .list-item .hidden h4{
+    font-weight: 500;
+    font-size: 19px;
+    padding: 30px 0 10px 0;
+}
+#total-rewards-text-area h6, .total-rewards-list .list-item .hidden h6{
+  font-style: italic;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  padding: 30px 0 0 0;
+  clear: both;
+}
+.awards .content-block{max-width:1440px;padding:0 30px;}
+.awards ul li{width:14.28%;float:left;padding:10px 35px;}
+.awards ul li img{max-width:100%;height:auto;}
+.join-truths-list .show.list-item .title {
+    border: 2px solid #66b84f;
+    cursor: pointer;
+}
+.join-truths-list .show.list-item .title .cell {
+    background: #66b84f;
+}
+#join-truths-text-area, #join-truths-text-area p{
+    text-align: center;
+}
+#join-truths-text-area{
+    padding:30px 0 0 0;
+}
+#home-splash video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-height: 856px;
+    z-index: 0;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+#home-splash h1 .green{
+    display: block;
+    color: #65bc47;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+    margin:15px 0 0 0;
+}
+#home-splash h1 .white{
+    display: block;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+@media only screen and (max-width: 1900px) {
+.inner-hero{
+	max-width: 1460px;
+    margin: 0 auto 0 auto;
+    padding: 0 30px 0 30px;
+}
+#home-splash h1 {
+    left: auto;
+}
+#home-splash .nav-block {
+    left: auto; 
+}
+}
+@media only screen and (max-width: 1320px) {
+.page-template-ird-page .inspiration { background-position: 70% center !important;}
+    }
+@media screen and (max-width: 1150px) {
+	.page-template-gene-therapy-page .gene-therapy-resources li{
+	  text-align:center;
+	  padding:20px 0;
+	  float:none;
+	  display:block;
+	  width:100%;
+	}
+}
+@media all and (min-width: 1121px) {
+#scientific-programs:hover,#we-are-spark-nav:hover{padding-bottom: 30px;}
+#scientific-programs:hover .sub-menu,#we-are-spark-nav:hover .sub-menu{
+    display: block;
+    width: 200px;
+    position: absolute;
+    background-color:#e6e6e6;
+    left: -10px; 
+    bottom: 0px;
+}
+#scientific-programs:hover .sub-menu li a,#we-are-spark-nav:hover .sub-menu li a{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color: #58595b;
+    font-weight: 600;
+    font-size: 14px;
+}
+#scientific-programs:hover .sub-menu li,#we-are-spark-nav:hover .sub-menu li{
+    float: none;
+    margin: 0;
+}
+#scientific-programs:hover .back-li,#we-are-spark-nav:hover .back-li{
+    display: none;
+}
+#scientific-programs:hover .sub-menu li a, #join-spark-team:hover .sub-menu li a, #patients-families:hover .sub-menu li a, #we-are-spark-nav:hover .sub-menu li a{
+    border-top: #ccc 1px solid;
+}
+#scientific-programs:hover .sub-menu li a, #join-spark-team:hover .sub-menu li:first-child a, #patients-families:hover .sub-menu li:first-child a, #we-are-spark-nav:hover .sub-menu li a{
+    border-top: none;
+}
+#main-menu .child-nav ul{width:100%; float: none; background-color: #e6e6e6;}
+#scientific-programs .parent-cat,#join-spark-team .parent-cat,#patients-families .parent-cat,#we-are-spark-nav .parent-cat{display:none;}
+#scientific-programs:hover, #join-spark-team:hover, #patients-families:hover, #we-are-spark-nav:hover {padding-bottom: 30px;}
+#scientific-programs:hover .sub-menu, #join-spark-team:hover .sub-menu, #patients-families:hover .sub-menu, #we-are-spark-nav:hover .sub-menu {
+    display: block;
+    width: 200px;
+    position: absolute;
+    background-color:#e6e6e6;
+    left: -10px; 
+    bottom: 0px;
+}
+#scientific-programs:hover .sub-menu, #join-spark-team:hover .sub-menu, #patients-families:hover .sub-menu, #we-are-spark-nav:hover .sub-menu{
+    display: block;
+    width: 200px;
+    position: absolute;
+    background-color:#e6e6e6;
+    left: -10px; 
+    top: 40px;
+}
+#join-spark-team:hover .sub-menu{
+    left: -55px;
+}
+#patients-families:hover .sub-menu{
+    left: -55px;
+}
+#we-are-spark-nav:hover .sub-menu {
+    width: 150px;
+    background-color: #e6e6e6;
+    left: -50px;
+}
+#scientific-programs:hover .sub-menu li:first-child, #patients-families:hover .sub-menu li:first-child{}
+#scientific-programs:hover .sub-menu li a, #join-spark-team:hover .sub-menu li a, #patients-families:hover .sub-menu li a, #we-arespark-nav:hover .sub-menu li a {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    color: #58595b;
+    font-weight: 600;
+    font-size: 14px;
+}
+#scientific-programs:hover .sub-menu li, #join-spark-team:hover .sub-menu li, #patients-families:hover .sub-menu li, #we-arespark-nav:hover .sub-menu li{
+    float: none;
+    margin: 0;
+}
+#scientific-programs:hover .back-li, #join-spark-team:hover .back-li, #patients-families:hover .back-li, #we-arespark-nav:hover .back-li{
+    display: none;
+}
+.page-template-ird-page #scientific-programs:hover .sub-menu li a, .page-template-ird-page #join-spark-team:hover .sub-menu li a, .page-template-ird-page #patients-families:hover .sub-menu li a, .page-template-ird-page #we-arespark-nav:hover .sub-menu li a{
+    border-top: #ccc 1px solid;
+}
+.page-template-ird-page #scientific-programs:hover .sub-menu li a, .page-template-ird-page #join-spark-team:hover .sub-menu li:first-child a, .page-template-ird-page #patients-families:hover .sub-menu li:first-child a, .page-template-ird-page #we-arespark-nav:hover .sub-menu li:first-child a{
+    border-top: none;
+}
+}
+@media only screen and (max-width: 1120px) {
+.inner-hero {
+    max-width: 1460px;
+    margin: 0 auto 0 auto;
+    padding: 0 30px 0 30px;
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+/* lost pw */
+.page-id-1027 .tml {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-id-1027 .tml-submit-wrap input[type=submit] {
+    margin-top: 10px;
+}
+/* end lost pw */
+#main-menu .has-dropdown.moved>.dropdown {
+    display: block;
+    position: absolute;
+    top: 0;
+    overflow: visible;
+    height: auto;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+#footer p {
+    text-align: center;
+}
+#main-menu .has-dropdown.moved>.dropdown > li > ul > li > ul {
+    padding-left: 30px;
+}
+#main-menu .has-dropdown.moved>.dropdown > li > ul > li > ul > li {
+    /*border-top: solid 1px #E6E6E6;*/
+	border-bottom:none;
+}
+#main-menu .has-dropdown.moved .child-block {
+    margin-top: 10px;
+}
+.investors .element-one, .investors .element-two {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-top: 30px;
+    height: auto;
+    padding: 20px 20px 50px 20px;
+    text-align: left;
+    box-shadow: none;
+}
+.investors .element-one{margin-top:30px;}
+.investors .element-two {
+    margin-left: 0;
+}
+.investors .element-three, .investors .element-four {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-top: 30px;
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    box-shadow: none;
+}
+.investors .element-four {
+    margin-left: 0;
+}
+.blue-button {
+    margin-top: 50px;
+}
+.graphical-nav {
+    padding: 0 20px 20px 20px;
+}
+.patients .graphical-nav {
+    padding: 0;
+}
+.graphical-nav .nav-block {
+	text-align: center;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    height: auto;
+}
+.graphical-nav .caption {
+    width: 100%;
+    color: #58595b;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    position: relative;
+    bottom: 0;
+}
+.patient-block-three .caption, .patient-block-two .caption, .patient-block-one .caption {
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    text-align: right;
+    padding: 30px 0 0 0;
+    position: absolute;
+    bottom: 0;
+}
+#home-splash {
+    height: 465px;
+}
+#home-splash h1 {
+	top: 0;
+    left: auto;
+    width: 100%;
+    text-align: left;
+	position: relative;
+	font-size: 50px;
+ 	width: 450px;
+	line-height:1.0em;
+}
+.director-profile-content{
+	padding: 20px 60px 0 0;
+}
+
+.director-page-content{
+	padding: 0 60px 0 0;
+}
+.news-events {
+    padding-bottom: 60px;
+}
+.news-events .block:nth-child(-n+4), .media .block:nth-child(-n+4){
+    margin-right: auto;
+}
+.news-events {
+    height: auto;
+}
+.news-events .block, .media .block {
+    box-shadow: none;
+    font-size: 17px;
+    width: 233px;
+    margin: 20px auto;
+    float: none;
+    padding: 24px;
+    clear: both;
+}
+.media{text-align:left;}
+	#main-body {
+    padding-top: 100px;
+}
+	#home-splash {
+    height: 465px;
+}
+#main-menu .child-nav a {margin-left: 35px;}
+#main-menu .child-nav{border: none; padding: 0;}
+#main-menu ul {
+    float: none;
+}
+#main-menu .has-dropdown.moved {
+    position: static;
+}
+#main-menu .has-dropdown.moved>.dropdown{
+	display: block;
+    position: absolute;
+    top: 0;
+	overflow: visible;
+	height: auto;
+    background-color: #F2F2F2;
+    width: 100%;
+	height: 100%;
+	z-index:99;
+}
+.mobile-hidden{display:none;}
+.mobile-show{display:block;}
+/*mobile nav */
+#main-menu li.has-dropdown>a:after {
+	content: "+";
+    float: right;
+	margin: -6px 20px;
+    font-size: 35px;
+    color: #010101;
+}
+#mobile-spark-menu span{
+	width: 35px;
+    height: 3px;
+    background-color: #231f20;
+    margin: 6px 0;
+	display:block;
+}
+#mobile-spark-menu{
+    float: right;
+    margin-top: 30px;
+	cursor:pointer;
+	display:block;
+}
+#main-menu a {
+    margin-left: 15px;
+    display: block;
+}
+#main-menu {
+    width: 100%;
+    background-color: #F2F2F2;
+    position: absolute;
+	left: 0;
+    top: 105px;
+    padding: 0;
+	overflow-y: scroll;
+}
+
+#main-menu li {
+    text-align: left;
+    float: none;
+    padding: 10px 0 10px 0;
+    border-bottom: solid 1px #E6E6E6;
+	margin: 0;
+}
+/*end mobile nav*/
+#spark-logo {
+	margin-top:23px;
+	width:150px;
+}
+
+#spark-logo img{
+	width:150px;
+}
+
+#header {
+	border-bottom-width:6px;
+	height:106px;
+}
+
+#left-column {
+	margin-top:106px;
+}
+
+#main-ir-content {
+	margin-top:106px;
+}
+#footer-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+}	
+
+#footer li {
+    display: block;
+    float: none;
+    margin-left: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+.media-kit .block:nth-child(-n+4) {
+    margin: 0 auto 20px auto;
+}
+.news-events .block, .media-kit .block {
+    box-shadow: none;
+    float: none;
+    padding: 24px;
+}
+.awards ul{max-width:270px;margin:0 auto;text-align:center;}
+.awards ul li{width: auto; float: none; padding: 10px !important;}
+}
+
+
+.page-template-hemophilia-page .h-forward{
+background: #dfdfdf; 
+background: -moz-linear-gradient(left, #dfdfdf 0%, #f8f8f8 100%); 
+background: -webkit-linear-gradient(left, #dfdfdf 0%,#f8f8f8 100%); 
+background: linear-gradient(to right, #dfdfdf 0%,#f8f8f8 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#f8f8f8',GradientType=1 ); 
+padding:20px;
+}
+.page-template-hemophilia-page .h-forward .h-forward-left{width:50%; float:left;}
+.page-template-hemophilia-page .h-forward .h-forward-left img{display:block; width: 100%; max-width: 360px;margin: 25px 0 0 0;}
+.page-template-hemophilia-page .h-forward .h-forward-right{width:50%; float:left;}
+.page-template-hemophilia-page .h-forward-tag{font-size:19px; font-style:italic; padding:0 0 10px 0;text-align: left; padding-right: 10px !important;}
+.page-template-hemophilia-page .h-forward-body{padding:20px 0 0 0;}
+.page-template-hemophilia-page .h-forward-video{position:relative;width:100%;height:0;padding-bottom:56.27198%;}
+.page-template-hemophilia-page .h-forward-video iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+
+@media only screen and (max-width: 1059px) {
+	.content-block.max-width1020, .single-voices .voices-title, .single-voices .voices{
+		max-width:670px;
+	}
+}
+@media only screen and (max-width: 1040px) {
+.page-template-ird-page .inspire-tagline {right: 0;}
+.graphical-nav .g-nav-item {
+    float: none;
+    width: 195px;
+    height: 225px;
+    margin: 20px auto;
+    position: relative;
+}
+}	
+@media only screen and (max-width: 940px) {
+	.page-template-product-page .product-page .left{width:100%; float:none;}
+	.page-template-product-page .product-page .right{width:100%; float:none;}
+	.page-template-product-page .product-page .left img{width:100%;  max-width:362px;}
+	.page-template-product-page .product-page .right img{width:100%;  max-width:362px;}
+	.healthcare-page-access .banner #banner-one,.healthcare-page-access .banner #banner-two{width: 100%;
+    float: none;
+    text-align: center; padding:10px;}
+	.healthcare-page-access .banner #banner-one img,.healthcare-page-access .banner #banner-two img{width:auto;}
+	.bg-0f76bc h3{
+      line-height: inherit;
+	  padding: 1em 0;
+	  display: block;
+}
+	
+	.bg-0f76bc a{
+	display: inline-block;
+	line-height: inherit;
+	margin-bottom: 1em;
+}
+  .interstitial-text h2{
+      font-size: 25px;
+    }
+  .interstitial-text a {
+      font-size: 15px;
+      line-height: 1.631em;
+      font-weight: 400;
+      color: #fff;
+      display: inline-block;
+      padding: 5px 25px 5px 25px;
+      background: #2bace2;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center;
+  }
+  .interstitial-text .body{
+      font-size:20px;
+  }
+.mobile-show-900{display:inline;}
+.responsiveGallery-item .hidden .quote span {
+    font-size: 16px;
+}
+.patients-resources div:nth-of-type(1){padding-right:30px;}
+.patient-banner-two div img, .patient-banner-one div img{
+	display: block;
+    width: auto; 
+    margin:0 0 10px 0; 
+}
+.healthcare-page-access img{width:100%;}
+.tab-list-item td {
+    padding: 0 0 15px 0;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.tab-list-item tr {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+	.patient-story {
+    padding: 19px 19px 40px 19px;
+	}
+.hide-mobile{display:none;}
+.media-kit-modal .download-header{text-align:center; font-size:22px; font-weight:600; margin-bottom: 30px;}
+.media-kit-modal .download-img-one{width: 100%; float: none;}
+.media-kit-modal .download-img-two{width: 100%; float: none; margin-top:30px;}
+	.spark-modal-content {
+    margin: 0;
+    padding: 50px;
+    width: 100%;
+}
+.spark-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.patient-banner-one, .patient-banner-two{float:none; width:100%; text-align:center;}
+.patient-banner-one img, .patient-banner-two img{width:100%;}
+.roles-one,.benefits-one,.roles-two,.benefits-two{width:100%; padding: 0 20px 0 20px; float:none; text-align:center;}
+.stage-title{    
+	display:block;
+	}
+.media-kit .inner-wrapper {
+    margin: 0;
+    margin-top: 40px;
+    display: block;
+}
+.media, .media-kit div {
+    text-align: center;
+}
+#map {
+    width: 100% !important; 
+}
+.patient1-splash,.patient2-splash,.patient3-splash {
+    height: 223px;
+	}
+.patients .graphical-nav {
+    padding: 0;
+}
+.patient-story .read-more {
+    padding-top: 30px;
+    display: block;
+    padding-bottom: 20px;
+    text-align: left;
+    float: none;
+}
+.patient-block-three .caption,.patient-block-two .caption,.patient-block-one .caption {
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: auto;
+	padding: 15px;
+    font-size: 16px;
+    display: block;
+    background: rgba(0,0,0,0.5);
+}
+.patient-block-three .caption{bottom: -30px;}
+.patient-block-one, .patient-block-two, .patient-block-three, .patient-two  {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    height: auto;
+	right:auto;
+	margin-top: -110px;
+}
+.patient-block-three .caption{bottom: auto;}
+.patient-story {
+    width: 100%;
+    box-shadow: none;
+}
+.platform-page p, .healthcare-page p{padding:20px 0 20px 0;}
+.spark-page-community h2{text-align: center;}
+.spark-page-meet {
+    padding: 0 0 30px 0;
+}
+.community-img {
+    float: none;
+	margin-right:0;
+    padding: 0;
+	width:100%;
+}
+.community-blocks p {
+    margin: 0 0 30px 0;
+	padding-bottom: 5px;
+    text-align: left;
+}
+.pipeline-phases{display:none;}
+.platform-page .platform-item p:nth-of-type(2) {
+    padding: 20px 0 10px 0;
+    text-align: left;
+    margin:0;
+}
+.platform-item:nth-of-type(1),.platform-item:nth-of-type(2),.platform-item:nth-of-type(3),.platform-item:nth-of-type(4){
+    width: 260px;
+    text-align: center;
+    float: none;
+    padding:10px 0 50px 0;
+    margin:0 auto;
+	}
+.platform-item:nth-of-type(4){padding:10px 0 0 0;}
+.platform-item p:nth-of-type(1){margin:0; text-align:center;}
+.content-block {
+    margin: 0 20px;
+    text-align: left;
+}
+.content-block.max-width1020{
+	margin:0 auto;
+}
+.map-area, .values{
+	text-align: center;
+} 
+.platform-block {
+    text-align: center;
+}
+.content-block>p>img{
+   width:100%;
+   height: auto;
+}
+.platform-block{
+	margin: 0 auto 0 auto;
+    padding: 60px 30px 60px 30px;
+}
+
+.platform-block p {
+    padding: 22px 0 10px 0;
+    font-size: 18px;
+}
+.platform-item {
+    width: 200px;
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.platform-item .hidden, .platform-item .on{display:inline-block} 
+.platform-item:hover .off{display:none}
+#platform-text-area{display:none;}
+.platform-item .off{display:none}
+.platform-item:hover .on{display:inline-block}
+
+
+.director-page-content {
+    padding: 100px 30px 0 30px;
+}
+#main-ir-content {
+    padding-left: 30px;
+}
+h1, h2 {
+    text-align: center;
+}
+.contact-bottom-block-one h2, .contact-bottom-block-two h2 {
+    text-align: left;
+}
+#main-ir-content {
+    margin-top: 0;
+}
+#left-column {
+	display:none;
+}
+
+#main-ir-content {
+	float:none;
+	width:100%;
+}
+.bio-img {
+    box-shadow: none;
+    width: auto;
+    float: none;
+}
+.director-profile-text p{
+	display:none;
+}
+.director-profile-content {
+    padding: 0;
+    width: 320px;
+    margin: 0 auto;
+}
+.director-profile-text {
+    padding: 0;
+    overflow: auto;
+}
+#main-ir-content {
+    padding-left: 0;
+}
+.director-profile-text {
+    padding: 0;
+    overflow: auto;
+    margin: -10px 0 0 0;
+}
+#scientific-programs:hover .submenu{
+    display: block;
+    width: 200px;
+    position: absolute;
+}
+.page-template-patients-page .patient-banner-two img, .patient-banner-one img {
+    width: 280px;
+}
+.page-template-patients-page .patient-banner-2, .patient-banner-1 {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.page-template-patients-page .advocate-wrapper {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.page-template-patients-page .advocate-profile {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+.page-template-patients-page .tab-list-item {
+    min-height: 65px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    padding: 0 20px 0 0;
+    text-align: left;
+}
+.page-template-patients-page .learn-more-therapy a {
+    color: #191d63;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px 50px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+}
+ .page-template-hemophilia-page .hemo-team-wrapper {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding:0;
+}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(1) {
+    padding-right: 0;
+}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(2) {
+    padding: 0;
+}
+.page-template-hemophilia-page .hemo-team-wrapper:nth-of-type(3) {
+    padding-left: 0;
+}
+.page-template-hemophilia-page .hemo-team-profile {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+.page-template-hemophilia-page .patients-resources a{font-size:16px;}
+.page-template-hemophilia-page .patients-gene-therapy{
+    padding: 30px 0 10px 0;
+}
+.page-template-hemophilia-page .ird-community-contact.content-block>p>img {width:initial; display:block; margin:0 auto;}
+.page-template-hemophilia-page .footer-items.content-block{margin:0;}
+.page-template-hemophilia-page .footer-item{background-repeat: no-repeat; height: 338px; width:100%; float:none; position: relative; background-size: cover !important; background-position: center center !important;}
+.page-template-hemophilia-page .footer-item-wrapper{height: 338px; width:100%; float:none; position: relative;}
+.page-template-hemophilia-page .resource-item-ird {
+    padding: 10px 0 60px 0;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+	
+.page-template-hemophilia-page .inspiration .read-more {padding-top:0;}
+.page-template-hemophilia-page .inspiration .content-block{padding: 240px 0 0 0;margin: 0;}
+.page-template-hemophilia-page .inspiration-tease {
+    width: 100%;
+    height: auto;
+    background-color: rgba(101, 178, 101, 0.7);
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+}
+.page-template-hemophilia-page .inspire-tagline {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px 0 10px;
+    right: auto;
+    font-style: italic;
+    font-size: 18px;
+}
+.page-template-hemophilia-page .inspiration { background-position: 50% center !important;}
+.page-template-hemophilia-page .patients-gene-therapy.content-block>p>img {
+        width: 260px;
+        height: auto;
+        display:block;
+        margin:0 auto 20px auto;
+    }
+.page-template-hemophilia-page img.alignright,img.alignleft {
+      float: none;
+      margin: 0;
+    }
+.page-template-hemophilia-page .gt {
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+.page-template-ird-page .patient-banner-two, .page-template-ird-page .patient-banner-one {padding:0;}
+.page-template-ird-page .patients-resources a{font-size:16px;}
+.page-template-ird-page .patients-gene-therapy{
+    padding: 30px 0 10px 0;
+}
+.page-template-ird-page .ird-community-contact.content-block>p>img {width:initial; display:block; margin:0 auto;}
+.page-template-ird-page .footer-items.content-block{margin:0;}
+.page-template-ird-page .footer-item{background-repeat: no-repeat; height: 338px; width:100%; float:none; position: relative; background-size: cover !important; background-position: center center !important;}
+.page-template-ird-page .resource-item-ird {
+    padding: 10px 0 60px 0;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.page-template-ird-page .inspiration .content-block{padding: 280px 0 0 0;margin: 0;}
+.page-template-ird-page .inspiration-tease {
+    width: 100%;
+    height: auto;
+    background-color: rgba(101, 178, 101, 0.7);
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+}
+.page-template-ird-page .inspire-tagline {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px 0 10px;
+    right: auto;
+    font-style: italic;
+    font-size: 18px;
+}
+.page-template-ird-page .inspiration { background-position: 92% center !important;}
+.page-template-ird-page .patients-gene-therapy.content-block>p>img {
+        width: 250px;
+        height: auto;
+        display:block;
+        margin:0 auto 20px auto;
+    }
+.page-template-ird-page img.alignright,.page-template-ird-page img.alignleft {
+      float: none;
+      margin: 0;
+    }
+.page-template-ird-page .gt {
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+
+.page-template-pompe-page .patients-resources div:nth-of-type(1) {
+    padding: 0;
+}
+.page-template-pompe-page .patient-banner-two div, .page-template-pompe-page .patient-banner-one div{ padding: 0;}
+.page-template-pompe-page .patient-banner-two, .page-template-pompe-page .patient-banner-one {padding:0;}
+.page-template-pompe-page .patients-resources a{font-size:16px;}
+.page-template-pompe-page .patients-gene-therapy{
+    padding: 30px 0 10px 0;
+}
+.page-template-pompe-page .ird-community-contact.content-block>p>img {width:initial; display:block; margin:0 auto;}
+.page-template-pompe-page .footer-items.content-block{margin:0;}
+.page-template-pompe-page .footer-item{background-repeat: no-repeat; height: 338px; width:100%; float:none; position: relative; background-size: cover !important; background-position: center center !important;}
+.page-template-pompe-page .resource-item-ird {
+    padding: 10px 0 60px 0;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.page-template-pompe-page .patients-resources .resource-item-ird:nth-of-type(5) img {
+    width:100%;
+	max-width:426px;
+	height:auto;
+}
+.page-template-pompe-page .patients-resources .resource-item-ird:nth-of-type(7) img {
+    width:100%;
+	max-width:395px;
+	height:auto;
+}
+.page-template-pompe-page .inspiration .content-block{padding: 280px 0 0 0;margin: 0;}
+.page-template-pompe-page .inspiration-tease {
+    width: 100%;
+    height: auto;
+    background-color: rgba(101, 178, 101, 0.7);
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+}
+.page-template-pompe-page .inspire-tagline {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px 0 10px;
+    right: auto;
+    font-style: italic;
+    font-size: 18px;
+}
+.page-template-pompe-page .inspiration { background-position: 50% center !important;}
+.page-template-pompe-page .patients-gene-therapy.content-block>p>img {
+        width: 250px;
+        height: auto;
+        display:block;
+        margin:0 auto 20px auto;
+    }
+.page-template-pompe-page img.alignright,.page-template-ird-page img.alignleft {
+      float: none;
+      margin: 0;
+    }
+.page-template-pompe-page .gt {
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+}
+@media only screen and (max-width: 860px){
+	.page-template-patients-page .patient-banner {
+		width: 100%;
+		float: none;
+		text-align: center !important;
+		padding-bottom: 20px;
+	}
+	#join-truths-text-area{
+		display:none;
+	}
+	.join-truths-list .list-item {
+		display: block;
+	}
+	.join-truths-list .list-item .hidden {
+		display:block; text-align:center; padding: 20px;
+	}
+	.join-truths-list .list-item .hidden p {
+		text-align:center;
+	}
+	.join-truths-list .list-item:nth-of-type(2) .title {
+		border: 2px solid #23aade;
+	}
+	.join-truths-list .list-item:nth-of-type(2) .title .cell {
+		background: #23aade;
+	}
+	.join-truths-list .list-item:nth-of-type(3) .title {
+		border: 2px solid #c7d140;
+	}
+	.join-truths-list .list-item:nth-of-type(3) .title .cell {
+		background: #c7d140;
+	}
+	.join-truths-list .list-item:nth-of-type(4) .title {
+		border: 2px solid #ad4195;
+	}
+	.join-truths-list .list-item:nth-of-type(4) .title .cell {
+		background: #ad4195;
+	}
+	.join-truths-list .list-item:nth-of-type(5) .title {
+		border: 2px solid #1a76b5;
+	}
+	.join-truths-list .list-item:nth-of-type(5) .title .cell {
+		background: #1a76b5;
+	}
+    #total-rewards-text-area{
+        display: none;
+    }
+    .total-rewards-list .list-item .hidden{display:block;} 
+    #total-rewards-text-area h6, .total-rewards-list .list-item .hidden h6 {
+        padding: 30px 0 30px 0;
+    }
+    #total-rewards-text-area ul, .total-rewards-list .list-item .hidden ul{
+        display: block;
+        width: 100%;
+        float: none;
+        padding: 20px 0 0 0;
+    }
+    .total-rewards-list .list-item:nth-of-type(2) .title {
+    border: 2px solid #1a76b5;
+    }
+    .total-rewards-list .list-item:nth-of-type(2) .title .cell {
+        background: #1a76b5;
+    }
+    .total-rewards-list .list-item:nth-of-type(3) .title {
+        border: 2px solid #29aade;
+    }
+    .total-rewards-list .list-item:nth-of-type(3) .title .cell {
+        background: #29aade;
+    }
+	.page-template-join-page .spark-page .left-content-block{width:100%;max-width:none;margin-bottom:30px;padding-right:0;float:none;}
+	.page-template-join-page .spark-page .right-content-block{width:100%;max-width:500px;margin:0 auto 40px;float:none;}
+	.page-template-join-page .buttons a.blue-button, .page-template-join-page .buttons a.white-button{display:block;margin:30px auto 20px;}
+	.total-rewards-list .list-item{margin-left:50px;}
+}
+@media only screen and (max-width: 700px){
+   .novartis-logo-pipeline{margin: 5px 0; display: block; float: none;}
+   .pfizer-logo-pipeline{margin: 5px 0; display: block; float: none;}
+   .page-template-media-page .download-img{float: none; width: 100%; padding: 10px;}
+}
+@media only screen and (max-width: 758px) {
+	.total-rewards-list .list-item:nth-of-type(3){margin:0 25px;}
+}
+@media only screen and (max-width: 750px) {
+	.responsiveGallery-item .hidden .quote {
+	    position: relative;
+	    display: table;
+	    padding: 0;
+	    top: 0;
+	    left: 0;
+	    z-index: 20;
+	    height: 100%;
+	}
+	.page-template-hemophilia-page .inspiration-tease {
+		font-size: 16px;
+			padding: 10px;
+	}
+	.page-template-hemophilia-page .inspiration { background-position: 70% center !important;}
+	.page-template-hemophilia-page .what-block-one{float: none; width: 100%; padding:0 20px;}
+	.page-template-hemophilia-page .what-image-two{float: none;
+		padding: 0 0 20px 0;
+		display: block;
+		text-align: center;
+		margin: 0 auto;}
+	.page-template-hemophilia-page .what-image-one{display:none;}
+	.page-template-hemophilia-page .what-block-two{float: none; width: 100%; padding:0 20px;}
+.page-template-ird-page .inspiration-tease {
+    font-size: 16px;
+        padding: 15px;
+}
+.page-template-ird-page .inspiration { background-position: 70% center !important;}
+.page-template-ird-page .what-image-two{float: none;
+    padding: 0 0 20px 0;
+    display: block;
+    text-align: center;
+    margin: 0 auto;}
+.page-template-ird-page .what-block-two{float: none; width: 100%; padding:0 20px;}
+}
+@media screen and (max-width: 709px){
+.content-block.max-width1020, .single-voices .voices-title, .single-voices .voices{
+	max-width:320px;
+}
+.voices-categories{margin-bottom:0;}
+.voices-categories a{display:none;}
+.voice.featured{width:320px;height:625px;}
+.voice.featured img{float:none;}
+.voice.featured .text{float:none;}
+}
+@media only screen and (max-width: 680px){
+.page-template-ird-page .what-block {
+    float: none;
+    padding: 0 20px 0 0;
+    width: 100%;
+}
+.page-template-ird-page .what-image {
+    float: none;
+    padding: 0 10px 0 20px;
+    margin-bottom: 0px;
+	text-align:center;
+}
+.page-template-hemophilia-page .h-forward{
+background: #dfdfdf; 
+background: -moz-linear-gradient(left, #dfdfdf 0%, #f8f8f8 100%); 
+background: -webkit-linear-gradient(left, #dfdfdf 0%,#f8f8f8 100%); 
+background: linear-gradient(to right, #dfdfdf 0%,#f8f8f8 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#f8f8f8',GradientType=1 ); 
+padding-right: unset !important;
+padding:20px;
+}
+.page-template-hemophilia-page .h-forward-tag{font-size:19px; font-style:italic; padding:0 0 10px 0;text-align: left; padding-right: 0 !important; text-align:center;}
+.page-template-hemophilia-page .h-forward-body{padding:20px 0 0 0;padding-right: unset !important;}
+.page-template-hemophilia-page .h-forward-video{position:relative;width:100%;height:0;padding-bottom:56.27198%;}
+.page-template-hemophilia-page .h-forward-video iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+.page-template-hemophilia-page .h-forward .h-forward-left{width:100%; float:none; padding:30px 0;padding-right: unset !important;}
+.page-template-hemophilia-page .h-forward .h-forward-right{width:100%; float:none; padding:30px 0;padding-right: unset !important;}
+.page-template-hemophilia-page .h-forward .h-forward-left img {
+    margin: 0 auto;
+}
+	
+  .careers-wrapper .inspiration-tease{width:100%;}
+}
+@media screen and (max-width: 600px){
+.page-template-ird-page .what-block-one {
+    float: none;
+    padding: 0 20px 0 0;
+    width: 100%;
+    text-align: center;
+}
+.patient-banner-two div, .patient-banner-one div {
+    display: block;
+	}
+.patient-banner-one, .patient-banner-two {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.page-template-ird-page .what-image-one {
+    float: none;
+    padding: 0 10px 0 20px;
+    margin-bottom: 70px;
+    width: 100%;
+}	
+.patient-banner-two div img, .patient-banner-one div img {
+    display: inline;
+	}
+	
+    #wpadminbar {
+        position: fixed;
+    }
+.single-voices .content-block h2 {font-size: 25px;}
+.single-voices .voice-category {font-size: 16px;}
+}
+@media only screen and (max-width: 500px) {
+	.patient-banner-two div img, .patient-banner-one div img{
+    width: 100%;  
+	}
+	.healthcare-page .blue-button,.healthcare-page .white-button{
+	    width: 100%;
+	}
+	.page-template-hemophilia-page .inspiration {background-position: 65% center !important;}
+	.page-template-hemophilia-page .hemo-intro a:last-of-type, .patients-gene-therapy p:last-of-type a:last-of-type, .gt a{padding: 5px 5px 5px 5px; font-size: 11px;}
+.page-template-ird-page .inspiration {background-position: 81% center !important;}
+.page-template-ird-page .ird-intro a:last-of-type, .patients-gene-therapy p:last-of-type a:last-of-type,.page-template-ird-page .gt a,.page-template-pompe-page .gt a{padding: 5px 5px 5px 5px; font-size: 11px;}
+	.page-template-pompe-page .disease-advocacy-team .image-overlay-title{padding-top:15px;}
+	.total-rewards-list .list-item{margin:0 25px 20px;}
+	.total-rewards-list .list-item:first-of-type{margin:0 25px 20px;}
+	.total-rewards-list .list-item:nth-of-type(3){margin-bottom:0;}
+}
+@media only screen and (max-width: 450px) {
+	.contact-page .tab-list-item h2 {
+    width: 300px; font-size:19px;}
+.contact-bottom-block-one, .contact-bottom-block-two {
+    float: none;
+    width: 100%;
+	padding:0;
+} 
+.unsubscribe{padding-bottom:30px;}
+.community-img {
+    margin: 0;
+}
+.patient .arrow {
+    left: 45%;
+}
+.join-tab-block .tab-list-item {
+    padding: 19px;
+}
+.investors .element-two>img {width: 100%;}
+.read-more {
+    display: block;
+    float: none;
+	text-align:left;
+}
+.read-more {
+    display: block;
+    float: none;
+	text-align:left;
+}
+.community-blocks .read-more {
+    display: block;
+    float: none;
+	text-align:center;
+	padding-top: 30px;
+}
+.patient-block-one, .patient-block-two, .patient-block-three, .patient-two  {
+	margin-top: -90px;
+}
+.content-block {
+    text-align: center;
+}
+.content-block.max-width1020{
+	text-align:left;
+}
+.pipeline-block{text-align: left;}
+.pipeline-title-table {
+    padding: 0 5px;
+}
+
+.bio-pic {
+	width:100%;
+	padding-right:0;
+}
+
+.hide-large{display:inline;}
+.pipeline-title-image{padding:0 10px 0 0;}
+.pipeline-title-text{
+	font-size: 18px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+.footer-splash.investors{
+	height:200px; 
+    background: url(/wp-content/uploads/footer_investors-media_mobile.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.healthcare{
+	height:200px; 
+    background: url(/wp-content/uploads/spark/mobile_healthcare-professionals-footer-splash.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.gene{
+	height:200px;
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.home{
+	height:200px; 
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+.footer-splash.join{
+	height:200px; 
+    background: url(/wp-content/uploads/footer_join_mobile.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 1920px;
+    position:relative;
+}
+
+#home-splash h1 {
+	top: 15px;
+    left: auto;
+    width: 50%;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+#main-body {
+    padding-top: 106px;
+}
+	#home-splash {
+    height: 161px; 
+}
+#main-ir-content {
+	float:none;
+	width:100%;
+}
+.director-profile-content {
+    padding: 0 30px;
+    width: 100%;
+    margin: 0;
+}
+.bio-img {
+    box-shadow: none;
+    width: 100%;
+    float: none;
+}
+.director-profile-text {
+    padding: 0;
+    overflow: auto;
+    margin: -10px 0 0 0;
+}
+}	
+@media only screen and (max-width: 430px) {
+	.page-template-join-page .buttons a.blue-button, .page-template-join-page .buttons a.white-button{width:100%;}
+}

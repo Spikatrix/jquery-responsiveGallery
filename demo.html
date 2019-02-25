@@ -6,6 +6,7 @@
 	<title>Responsive 3D Gallery</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery-responsiveGallery.css">
+	<link rel="stylesheet" type="text/css" href="css/sparktx.css">
 	<style type="text/css">
 		html{
 
@@ -35,6 +36,30 @@ $('.responsiveGallery-wrapper').responsiveGallery({
         <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a>
         <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
         <ul class="responsiveGallery-wrapper"> 
+            <li class="responsiveGallery-item">
+              <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
+              <div class="hidden">
+                  <span class="spark-modal-close">×</span>
+                  <h4>Yo yo yo</h4>
+                  <p>And here's some content, y'all.</p>
+              </div>
+              <div class="w-responsivGallery-info modal">
+                <h3 class="responsivGallery-position">sparktx-style popup</h3>
+              </div>
+            </li>
+            <li class="responsiveGallery-item">
+              <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
+              <div class="hidden">
+                  <span class="spark-modal-close">×</span>
+                  <div class="embed-container">
+                      <iframe src="https://player.vimeo.com/video/318018278" frameborder="0"></iframe>
+                  </div>
+              </div>
+              <div class="w-responsivGallery-info modal">
+                <h2 class="responsivGallery-name">Vimeo</h2>
+                <h3 class="responsivGallery-position">vimeo sample vid</h3>
+              </div>
+            </li>
             <li class="responsiveGallery-item">
               <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
               <div class="w-responsivGallery-info">
@@ -101,5 +126,27 @@ $('.responsiveGallery-wrapper').responsiveGallery({
         </ul>
       </section>
     </div>
+
+    <div class="spark-modal">
+        <div cass="spark-modal-content"></div>
+    </div>
+<script>
+jQuery(document).ready(function($) {
+    $(this).on("click",".modal",function() {
+        var modalText = $(this).siblings('.hidden').clone();
+        $( ".spark-modal" ).toggle();
+        $(".spark-modal-content").html(modalText);
+    });
+
+    $(this).on("click",".spark-modal-close",function() {
+        $( ".spark-modal" ).toggle();
+        $(".spark-modal-content").html('');
+    });
+
+    if (document.location.href.indexOf('#') > -1) {
+        console.log($("body").scrollTop());
+    }
+});
+</script>
 </body>
 </html>

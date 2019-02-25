@@ -126,17 +126,17 @@
       if (support3d) {
         cssArray = [
           getTransform3dCSS('-100%', -400,  45, 0, 0, 'hidden'),
-          getTransform3dCSS(    '0', -300,  45, 1, 1, 'visible'),
-          getTransform3dCSS( '100%',    0,   0, 2, 1, 'visible'),
-          getTransform3dCSS( '200%', -300, -45, 1, 1, 'visible'),
+          getTransform3dCSS('-36px', -300,  45, 1, 1, 'visible'),
+          getTransform3dCSS(  '94%',    0,   0, 2, 1, 'visible'),
+          getTransform3dCSS( '199%', -300, -45, 1, 1, 'visible'),
           getTransform3dCSS( '300%', -400, -45, 0, 0, 'hidden')
         ];
-      } else if (support2d) {
+      } else if(support2d){
         cssArray = [
           getTransform2dCSS('-100%', 0.65, '100%', '50%', 0, 'hidden'),
-          getTransform2dCSS(    '0',  0.8,  '50%', '50%', 1, 'visible'),
-          getTransform2dCSS( '100%',    1,  '50%', '50%', 1, 'visible'),
-          getTransform2dCSS( '200%',  0.8,  '50%', '50%', 1, 'visible'),
+          getTransform2dCSS('-36px',  0.8,  '50%', '50%', 1, 'visible'),
+          getTransform2dCSS(  '94%',    1,  '50%', '50%', 1, 'visible'),
+          getTransform2dCSS( '199%',  0.8,  '50%', '50%', 1, 'visible'),
           getTransform2dCSS( '300%', 0.65,   '0%', '50%', 0, 'hidden')
         ];
       }

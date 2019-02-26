@@ -24,7 +24,8 @@ html{
                 $('.responsiveGallery-wrapper').responsiveGallery({
                     animatDuration: 400, //动画时长 单位 ms
                     $btn_prev: $('.responsiveGallery-btn_prev'),
-                    $btn_next: $('.responsiveGallery-btn_next')
+                    $btn_next: $('.responsiveGallery-btn_next'),
+                    $btn_goto: $('.responsiveGallery-btn_goto')
                 });
             });
 
@@ -40,17 +41,6 @@ html{
                         <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
                         <div class="hidden">
                             <span class="spark-modal-close">×</span>
-                            <h4>Yo yo yo</h4>
-                            <p>And here's some content, y'all.</p>
-                        </div>
-                        <div class="w-responsivGallery-info modal">
-                            <h3 class="responsivGallery-position">sparktx-style popup</h3>
-                        </div>
-                    </li>
-                    <li class="responsiveGallery-item">
-                        <img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic modal">
-                        <div class="hidden">
-                            <span class="spark-modal-close">×</span>
                             <div class="embed-container">
                                 <iframe src="https://player.vimeo.com/video/318018278" frameborder="0"></iframe>
                             </div>
@@ -58,13 +48,6 @@ html{
                         <div class="w-responsivGallery-info modal">
                             <h2 class="responsivGallery-name">Vimeo</h2>
                             <h3 class="responsivGallery-position">vimeo sample vid</h3>
-                        </div>
-                    </li>
-                    <li class="responsiveGallery-item">
-                        <a href="http://www.codingserf.com" target="_blank" class="responsivGallery-link"><img src="images/0.jpg" height="320" width="320" alt="" class="responsivGallery-pic"></a>
-                        <div class="w-responsivGallery-info">
-                            <h2 class="responsivGallery-name">Google</h2>
-                            <h3 class="responsivGallery-position">www.google.com</h3>
                         </div>
                     </li>
                     <li class="responsiveGallery-item">
@@ -125,6 +108,18 @@ html{
                     </li>
                 </ul>
             </section>
+        </div>
+
+        <div class="gallery-controls">
+            <button id="button0" name="button0" value="0" class="responsiveGallery-btn_goto">0</button>
+            <button id="button1" name="button1" value="1" class="responsiveGallery-btn_goto">1</button>
+            <button id="button2" name="button2" value="2" class="responsiveGallery-btn_goto">2</button>
+            <button id="button3" name="button3" value="3" class="responsiveGallery-btn_goto">3</button>
+            <button id="button4" name="button4" value="4" class="responsiveGallery-btn_goto">4</button>
+            <button id="button5" name="button5" value="5" class="responsiveGallery-btn_goto">5</button>
+            <button id="button6" name="button6" value="6" class="responsiveGallery-btn_goto">6</button>
+            <button id="button7" name="button7" value="7" class="responsiveGallery-btn_goto">7</button>
+            <button id="button8" name="button8" value="8" class="responsiveGallery-btn_goto">8</button>
         </div>
 
         <div class="spark-modal">

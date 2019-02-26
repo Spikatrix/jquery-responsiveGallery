@@ -5,6 +5,9 @@
 	overflow: hidden;
 }
 
+a.responsiveGallery-btn {
+  outline: 0;
+}
 .responsiveGallery-btn{
 	position:absolute;
 	top: 0;

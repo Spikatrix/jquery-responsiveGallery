@@ -242,9 +242,7 @@
     });
 
     opts.$btn_goto.on('click', function(e) {
-      console.log(e);
-      console.log(e.target.value);
-      gotoGallery(e.target.value);
+      gotoGallery($(this).attr('value'));
     });
 
     $rgWrapper.on('touchstart', function(e) {

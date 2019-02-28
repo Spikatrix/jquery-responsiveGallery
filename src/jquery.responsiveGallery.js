@@ -20,7 +20,6 @@
     let isAnimating = false;
     let touchX = 0;
 
-    console.log(opts);
     function getTransform3dCSS(tx, ty, ry, zIndex, opacity, visibility) {
       return {
         '-webkit-transform' : 'translateX('+tx+') translateZ('+ty+'px) rotateY('+ry+'deg)',
@@ -241,7 +240,7 @@
       !isAnimating && moveGallery(-1);
     });
 
-    opts.$btn_goto.on('click', function(e) {
+    opts.$btn_goto.on(opts.btn_goto_event, function(e) {
       gotoGallery($(this).attr('value'));
     });
 
@@ -297,6 +296,7 @@
     animatDuration: 400,  // 动画时长 单位 ms
     $btn_prev: $('.responsiveGallery-btn_prev'),
     $btn_next: $('.responsiveGallery-btn_next'),
-    $btn_goto: $('.responsiveGallery-btn_goto')
+    $btn_goto: $('.responsiveGallery-btn_goto'),
+    btn_goto_event: 'click'
   };
 })(jQuery);
